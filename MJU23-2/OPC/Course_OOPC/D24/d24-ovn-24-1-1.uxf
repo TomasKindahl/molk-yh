@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.0.0">
+  <zoom_level>16</zoom_level>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>496</x>
+      <y>464</y>
+      <w>208</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>:User</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>592</x>
+      <y>496</y>
+      <w>48</w>
+      <h>896</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;540.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>992</x>
+      <y>464</y>
+      <w>208</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>_:Dictionary_</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1072</x>
+      <y>496</y>
+      <w>48</w>
+      <h>848</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;510.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>592</x>
+      <y>528</y>
+      <w>528</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+välkomsttext</panel_attributes>
+    <additional_attributes>10.0;30.0;310.0;30.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>592</x>
+      <y>592</y>
+      <w>528</w>
+      <h>96</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+fråga 'hjälp'
+</panel_attributes>
+    <additional_attributes>10.0;30.0;310.0;30.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>592</x>
+      <y>656</y>
+      <w>528</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+lista på alla kommandon</panel_attributes>
+    <additional_attributes>10.0;30.0;310.0;30.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>592</x>
+      <y>720</y>
+      <w>528</w>
+      <h>96</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+begäran om alla ordlistor
+</panel_attributes>
+    <additional_attributes>10.0;30.0;310.0;30.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>592</x>
+      <y>784</y>
+      <w>528</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+lista på alla ordlistor</panel_attributes>
+    <additional_attributes>10.0;30.0;310.0;30.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>592</x>
+      <y>848</y>
+      <w>528</w>
+      <h>96</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+begäran ladda in ordlista
+</panel_attributes>
+    <additional_attributes>10.0;30.0;310.0;30.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>592</x>
+      <y>912</y>
+      <w>528</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+info om lyckad laddning</panel_attributes>
+    <additional_attributes>10.0;30.0;310.0;30.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>592</x>
+      <y>976</y>
+      <w>528</w>
+      <h>96</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+begäran att översätta ord
+</panel_attributes>
+    <additional_attributes>10.0;30.0;310.0;30.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>592</x>
+      <y>1040</y>
+      <w>528</w>
+      <h>96</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+beskriver ordet på
+det andra språket</panel_attributes>
+    <additional_attributes>10.0;30.0;310.0;30.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>592</x>
+      <y>1136</y>
+      <w>528</w>
+      <h>96</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+begäran att avsluta
+</panel_attributes>
+    <additional_attributes>10.0;30.0;310.0;30.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>592</x>
+      <y>1200</y>
+      <w>528</w>
+      <h>96</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+bekräftar avslutning
+</panel_attributes>
+    <additional_attributes>10.0;30.0;310.0;30.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>1072</x>
+      <y>1296</y>
+      <w>32</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>type=termination</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.0.0">
+  <zoom_level>15</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1485</x>
+      <y>975</y>
+      <w>405</w>
+      <h>345</h>
+    </coordinates>
+    <panel_attributes>Person
+--
+−name : string
+−personnumber : string
+−phone : string
+--
++Print()
+--
+Ansvar:
+-- hyr cykel
+-- betalningsskyldig
+   för större skador</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>420</x>
+      <y>840</y>
+      <w>705</w>
+      <h>525</h>
+    </coordinates>
+    <panel_attributes>Bicycle
+--
++id : int
+−type : enum { Child, Female, Male }
+−wheelSize : int
+--
++Print()
++status : enum {
+       Service, Available, RentedOut, Missing
+  }
+−rentalDate : string [?], DateTime [?]
+−renter : Person
+--
+Ansvar:
+-- ska fungera
+-- ska vara trafiksäker</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1110</x>
+      <y>1095</y>
+      <w>405</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>r1=0..n
+m2=renter
+r2=0..1</panel_attributes>
+    <additional_attributes>10.0;30.0;250.0;30.0</additional_attributes>
+  </element>
+</diagram>

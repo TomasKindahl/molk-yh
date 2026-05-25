@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.0.0">
+  <zoom_level>16</zoom_level>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>864</x>
+      <y>96</y>
+      <w>224</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>:Kund
+bg=#FFEEDD</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>1184</x>
+      <y>96</y>
+      <w>224</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>_:Uthyrare_
+bg=#FFEEDD</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>544</x>
+      <y>96</y>
+      <w>224</w>
+      <h>48</h>
+    </coordinates>
+    <panel_attributes>:Användare
+bg=#FFEEDD</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>960</x>
+      <y>128</y>
+      <w>48</w>
+      <h>1136</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;690.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1280</x>
+      <y>128</y>
+      <w>48</w>
+      <h>96</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;40.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>1280</x>
+      <y>192</y>
+      <w>32</w>
+      <h>1024</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>960</x>
+      <y>144</y>
+      <w>352</w>
+      <h>96</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+kundförfrågan
+om cyklar</panel_attributes>
+    <additional_attributes>200.0;30.0;10.0;30.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>960</x>
+      <y>240</y>
+      <w>352</w>
+      <h>96</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-&gt;
+dialog om önskad
+typ och storlek</panel_attributes>
+    <additional_attributes>10.0;30.0;200.0;30.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>1520</x>
+      <y>80</y>
+      <w>224</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;system&gt;&gt;
+_:DB_
+bg=#FFEEDD</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1616</x>
+      <y>144</y>
+      <w>48</w>
+      <h>1104</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;670.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1296</x>
+      <y>352</y>
+      <w>368</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+typ och storlek</panel_attributes>
+    <additional_attributes>210.0;30.0;10.0;30.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>960</x>
+      <y>320</y>
+      <w>352</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+beslut</panel_attributes>
+    <additional_attributes>10.0;30.0;200.0;30.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1296</x>
+      <y>416</y>
+      <w>368</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+cykelnummer</panel_attributes>
+    <additional_attributes>10.0;30.0;210.0;30.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>960</x>
+      <y>448</y>
+      <w>352</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+förfrågan om leg</panel_attributes>
+    <additional_attributes>10.0;30.0;200.0;30.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>960</x>
+      <y>512</y>
+      <w>352</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+leg</panel_attributes>
+    <additional_attributes>200.0;30.0;10.0;30.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1296</x>
+      <y>560</y>
+      <w>368</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+kontroll av leg</panel_attributes>
+    <additional_attributes>210.0;30.0;10.0;30.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1296</x>
+      <y>960</y>
+      <w>368</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+OK!</panel_attributes>
+    <additional_attributes>10.0;30.0;210.0;30.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLFrame</id>
+    <coordinates>
+      <x>480</x>
+      <y>640</y>
+      <w>1584</w>
+      <h>656</h>
+    </coordinates>
+    <panel_attributes>om leg OK
+halign=left
+--
+false
+-.
+
+
+leg ej i DB
+-.
+
+
+true
+-.
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1296</x>
+      <y>736</y>
+      <w>368</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+AVBRYT!</panel_attributes>
+    <additional_attributes>10.0;30.0;210.0;30.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>960</x>
+      <y>752</y>
+      <w>352</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+AVBRYT!</panel_attributes>
+    <additional_attributes>10.0;30.0;200.0;30.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>960</x>
+      <y>880</y>
+      <w>352</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-&gt;
+REGISTRERING</panel_attributes>
+    <additional_attributes>10.0;30.0;200.0;30.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1296</x>
+      <y>848</y>
+      <w>368</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+INFO SAKNAS</panel_attributes>
+    <additional_attributes>10.0;30.0;210.0;30.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>1280</x>
+      <y>784</y>
+      <w>32</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>type=termination</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>960</x>
+      <y>992</y>
+      <w>352</w>
+      <h>96</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+uthyrare ber
+om betalning</panel_attributes>
+    <additional_attributes>10.0;30.0;200.0;30.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>960</x>
+      <y>1040</y>
+      <w>1008</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+betalning</panel_attributes>
+    <additional_attributes>10.0;30.0;610.0;30.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>1808</x>
+      <y>80</y>
+      <w>224</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;system&gt;&gt;
+_:betalsystem_
+bg=#FFEEDD</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1920</x>
+      <y>144</y>
+      <w>48</w>
+      <h>1104</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;670.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1296</x>
+      <y>1088</y>
+      <w>672</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+OK!</panel_attributes>
+    <additional_attributes>10.0;30.0;400.0;30.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>640</x>
+      <y>128</y>
+      <w>48</w>
+      <h>1120</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;680.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>640</x>
+      <y>1120</y>
+      <w>672</w>
+      <h>96</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-&gt;
+Visning av cyklar, upplåsning
+och justering</panel_attributes>
+    <additional_attributes>10.0;30.0;400.0;30.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>1280</x>
+      <y>1184</y>
+      <w>32</w>
+      <h>32</h>
+    </coordinates>
+    <panel_attributes>type=termination</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

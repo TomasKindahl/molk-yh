@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.0.0">
+  <zoom_level>9</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>144</x>
+      <y>423</y>
+      <w>495</w>
+      <h>288</h>
+    </coordinates>
+    <panel_attributes>Låntagare
+--
++namn : string
++telefonnummer : string
++bötesbelopp : int
+--
++Registrera(kvartersbibliotek) : bool
++RegistreraLån(kvartersbibliotek, skrifter) : bool
++ökaSkuld(kronor : int)
++nollStällSkuld()
++fårLåna() // d.v.s. bötesbelopp &lt; 100
+--
+Responsibilities
+-- Återlämna skrifter i tid
+-- Betala skuld (om den finns)
+-- Se till att skriften återlämnas hel</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>270</x>
+      <y>837</y>
+      <w>261</w>
+      <h>108</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;abstract&gt;&gt;
+Skrift
+--
++lånedatum : DateTime
++låntagare : Låntagare
+--
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>396</x>
+      <y>702</y>
+      <w>63</w>
+      <h>153</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-
+m1=1
+m2=0..n</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;150.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>45</x>
+      <y>1044</y>
+      <w>261</w>
+      <h>126</h>
+    </coordinates>
+    <panel_attributes>Bok
+--
++titel : string
++bokhylla : string
++författare : string
++ISBN : string
+--
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>171</x>
+      <y>936</y>
+      <w>243</w>
+      <h>126</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>250.0;10.0;250.0;70.0;10.0;70.0;10.0;120.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>477</x>
+      <y>1044</y>
+      <w>261</w>
+      <h>144</h>
+    </coordinates>
+    <panel_attributes>Tidskrift
+--
++tidskrift : string
++tidningshylla : string
++redaktör : string
++ISSN : string
++nummer : string
+--
+--
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>387</x>
+      <y>936</y>
+      <w>234</w>
+      <h>126</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;70.0;240.0;70.0;240.0;120.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>855</x>
+      <y>423</y>
+      <w>315</w>
+      <h>288</h>
+    </coordinates>
+    <panel_attributes>Kvartersbibliotek
+--
++låntagare : Låntagare[]
++bokhyllor : Bokhylla[]
++tidningshyllor : Tidningshylla[]
++bibliotekarier : Bibliotekarie[]
+--
+--
+Responsibilities
+-- Resp1
+-- Resp2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>630</x>
+      <y>450</y>
+      <w>243</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-
+m1=1
+m2=0..n</panel_attributes>
+    <additional_attributes>250.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+</diagram>

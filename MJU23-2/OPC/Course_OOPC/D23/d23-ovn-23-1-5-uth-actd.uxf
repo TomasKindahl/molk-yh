@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.0.0">
+  <zoom_level>18</zoom_level>
+  <element>
+    <id>UMLObject</id>
+    <coordinates>
+      <x>360</x>
+      <y>252</y>
+      <w>936</w>
+      <h>1134</h>
+    </coordinates>
+    <panel_attributes>Uthyrning
+valign=top
+halign=left
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>684</x>
+      <y>144</y>
+      <w>36</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>type=initial</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>720</x>
+      <y>1458</y>
+      <w>36</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>type=final</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>558</x>
+      <y>342</y>
+      <w>324</w>
+      <h>126</h>
+    </coordinates>
+    <panel_attributes>kund initierar
+uthyrning</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

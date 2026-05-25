@@ -1,0 +1,1409 @@
+{
+    "Russia": {
+        "country": "Russia",
+        "area km\u00b2": "17098246",
+        "land km\u00b2": "16378410",
+        "water km\u00b2": "719836",
+        "water %": "4.2"
+    },
+    "Antarctica": {
+        "country": "Antarctica",
+        "area km\u00b2": "14200000",
+        "land km\u00b2": "14200000",
+        "water km\u00b2": "0",
+        "water %": "0"
+    },
+    "Canada": {
+        "country": "Canada",
+        "area km\u00b2": "9984670",
+        "land km\u00b2": "9093507",
+        "water km\u00b2": "891163",
+        "water %": "8.9"
+    },
+    "China": {
+        "country": "China",
+        "area km\u00b2": "9596961",
+        "land km\u00b2": "9326410",
+        "water km\u00b2": "270550",
+        "water %": "2.8"
+    },
+    "United States": {
+        "country": "United States",
+        "area km\u00b2": "9833517",
+        "land km\u00b2": "9147593",
+        "water km\u00b2": "685924",
+        "water %": "7.0"
+    },
+    "Brazil": {
+        "country": "Brazil",
+        "area km\u00b2": "8515767",
+        "land km\u00b2": "8460415",
+        "water km\u00b2": "55352",
+        "water %": "0.6"
+    },
+    "Australia": {
+        "country": "Australia",
+        "area km\u00b2": "7692024",
+        "land km\u00b2": "7633565",
+        "water km\u00b2": "58459",
+        "water %": "0.8"
+    },
+    "India": {
+        "country": "India",
+        "area km\u00b2": "3287263",
+        "land km\u00b2": "2973190",
+        "water km\u00b2": "314073",
+        "water %": "9.6"
+    },
+    "Argentina": {
+        "country": "Argentina",
+        "area km\u00b2": "2780400",
+        "land km\u00b2": "2736690",
+        "water km\u00b2": "43710",
+        "water %": "1.6"
+    },
+    "Kazakhstan": {
+        "country": "Kazakhstan",
+        "area km\u00b2": "2724900",
+        "land km\u00b2": "2699700",
+        "water km\u00b2": "25200",
+        "water %": "0.9"
+    },
+    "Algeria": {
+        "country": "Algeria",
+        "area km\u00b2": "2381741",
+        "land km\u00b2": "2381741",
+        "water km\u00b2": "0",
+        "water %": "0"
+    },
+    "DR Congo": {
+        "country": "DR Congo",
+        "area km\u00b2": "2344858",
+        "land km\u00b2": "2267048",
+        "water km\u00b2": "77810",
+        "water %": "3.3"
+    },
+    "Denmark": {
+        "country": "Denmark",
+        "area km\u00b2": "43094",
+        "land km\u00b2": "42434",
+        "water km\u00b2": "660",
+        "water %": "1.5"
+    },
+    "Saudi Arabia": {
+        "country": "Saudi Arabia",
+        "area km\u00b2": "2149690",
+        "land km\u00b2": "2149690",
+        "water km\u00b2": "0",
+        "water %": "0"
+    },
+    "Mexico": {
+        "country": "Mexico",
+        "area km\u00b2": "1964375",
+        "land km\u00b2": "1943945",
+        "water km\u00b2": "20430",
+        "water %": "1.0"
+    },
+    "Indonesia": {
+        "country": "Indonesia",
+        "area km\u00b2": "1904569",
+        "land km\u00b2": "1811569",
+        "water km\u00b2": "93000",
+        "water %": "4.9"
+    },
+    "Sudan": {
+        "country": "Sudan",
+        "area km\u00b2": "1861484",
+        "land km\u00b2": "1731671",
+        "water km\u00b2": "129813",
+        "water %": "7.0"
+    },
+    "Libya": {
+        "country": "Libya",
+        "area km\u00b2": "1759540",
+        "land km\u00b2": "1759540",
+        "water km\u00b2": "0",
+        "water %": "0"
+    },
+    "Iran": {
+        "country": "Iran",
+        "area km\u00b2": "1648195",
+        "land km\u00b2": "1531595",
+        "water km\u00b2": "116600",
+        "water %": "7.1"
+    },
+    "Mongolia": {
+        "country": "Mongolia",
+        "area km\u00b2": "1564110",
+        "land km\u00b2": "1553556",
+        "water km\u00b2": "10560",
+        "water %": "0.7"
+    },
+    "Peru": {
+        "country": "Peru",
+        "area km\u00b2": "1285216",
+        "land km\u00b2": "1279996",
+        "water km\u00b2": "5220",
+        "water %": "0.4"
+    },
+    "Chad": {
+        "country": "Chad",
+        "area km\u00b2": "1284000",
+        "land km\u00b2": "1259200",
+        "water km\u00b2": "24800",
+        "water %": "1.9"
+    },
+    "Niger": {
+        "country": "Niger",
+        "area km\u00b2": "1267000",
+        "land km\u00b2": "1266700",
+        "water km\u00b2": "300",
+        "water %": "0"
+    },
+    "Angola": {
+        "country": "Angola",
+        "area km\u00b2": "1246700",
+        "land km\u00b2": "1246700",
+        "water km\u00b2": "0",
+        "water %": "0"
+    },
+    "Mali": {
+        "country": "Mali",
+        "area km\u00b2": "1240192",
+        "land km\u00b2": "1220190",
+        "water km\u00b2": "20002",
+        "water %": "1.6"
+    },
+    "South Africa": {
+        "country": "South Africa",
+        "area km\u00b2": "1221037",
+        "land km\u00b2": "1214470",
+        "water km\u00b2": "4620",
+        "water %": "0.4"
+    },
+    "Colombia": {
+        "country": "Colombia",
+        "area km\u00b2": "1141748",
+        "land km\u00b2": "1038700",
+        "water km\u00b2": "100210",
+        "water %": "8.8"
+    },
+    "Ethiopia": {
+        "country": "Ethiopia",
+        "area km\u00b2": "1104300",
+        "land km\u00b2": "1096630",
+        "water km\u00b2": "7670",
+        "water %": "0.7"
+    },
+    "Bolivia": {
+        "country": "Bolivia",
+        "area km\u00b2": "1098581",
+        "land km\u00b2": "1083301",
+        "water km\u00b2": "15280",
+        "water %": "1.4"
+    },
+    "Mauritania": {
+        "country": "Mauritania",
+        "area km\u00b2": "1030700",
+        "land km\u00b2": "1025520",
+        "water km\u00b2": "4480",
+        "water %": "0.4"
+    },
+    "Egypt": {
+        "country": "Egypt",
+        "area km\u00b2": "1002450",
+        "land km\u00b2": "995450",
+        "water km\u00b2": "6000",
+        "water %": "0.6"
+    },
+    "Tanzania": {
+        "country": "Tanzania",
+        "area km\u00b2": "945087",
+        "land km\u00b2": "885800",
+        "water km\u00b2": "61500",
+        "water %": "6.5"
+    },
+    "Nigeria": {
+        "country": "Nigeria",
+        "area km\u00b2": "923768",
+        "land km\u00b2": "910768",
+        "water km\u00b2": "13000",
+        "water %": "1.4"
+    },
+    "Venezuela": {
+        "country": "Venezuela",
+        "area km\u00b2": "916445",
+        "land km\u00b2": "882050",
+        "water km\u00b2": "30000",
+        "water %": "3.3"
+    },
+    "Pakistan": {
+        "country": "Pakistan",
+        "area km\u00b2": "881913",
+        "land km\u00b2": "856690",
+        "water km\u00b2": "25223",
+        "water %": "2.9"
+    },
+    "Namibia": {
+        "country": "Namibia",
+        "area km\u00b2": "825615",
+        "land km\u00b2": "823290",
+        "water km\u00b2": "2425",
+        "water %": "0.3"
+    },
+    "Mozambique": {
+        "country": "Mozambique",
+        "area km\u00b2": "801590",
+        "land km\u00b2": "786380",
+        "water km\u00b2": "13000",
+        "water %": "1.6"
+    },
+    "Turkey": {
+        "country": "Turkey",
+        "area km\u00b2": "783562",
+        "land km\u00b2": "769632",
+        "water km\u00b2": "13930",
+        "water %": "1.8"
+    },
+    "Chile": {
+        "country": "Chile",
+        "area km\u00b2": "756102",
+        "land km\u00b2": "743812",
+        "water km\u00b2": "12290",
+        "water %": "1.6"
+    },
+    "Zambia": {
+        "country": "Zambia",
+        "area km\u00b2": "752612",
+        "land km\u00b2": "743398",
+        "water km\u00b2": "9220",
+        "water %": "1.2"
+    },
+    "Myanmar": {
+        "country": "Myanmar",
+        "area km\u00b2": "676578",
+        "land km\u00b2": "653508",
+        "water km\u00b2": "23070",
+        "water %": "3.4"
+    },
+    "Afghanistan": {
+        "country": "Afghanistan",
+        "area km\u00b2": "652867",
+        "land km\u00b2": "652867",
+        "water km\u00b2": "0",
+        "water %": "0"
+    },
+    "South Sudan": {
+        "country": "South Sudan",
+        "area km\u00b2": "644329",
+        "land km\u00b2": "644329",
+        "water km\u00b2": "0",
+        "water %": "0"
+    },
+    "France": {
+        "country": "France",
+        "area km\u00b2": "640679",
+        "land km\u00b2": "640427",
+        "water km\u00b2": "3374",
+        "water %": "0.5"
+    },
+    "Somalia": {
+        "country": "Somalia",
+        "area km\u00b2": "637657",
+        "land km\u00b2": "627337",
+        "water km\u00b2": "10320",
+        "water %": "1.6"
+    },
+    "Central African Republic": {
+        "country": "Central African Republic",
+        "area km\u00b2": "622984",
+        "land km\u00b2": "622984",
+        "water km\u00b2": "0",
+        "water %": "0"
+    },
+    "Ukraine": {
+        "country": "Ukraine",
+        "area km\u00b2": "603550",
+        "land km\u00b2": "579300",
+        "water km\u00b2": "24250",
+        "water %": "4.0"
+    },
+    "Madagascar": {
+        "country": "Madagascar",
+        "area km\u00b2": "587041",
+        "land km\u00b2": "581540",
+        "water km\u00b2": "5501",
+        "water %": "0.9"
+    },
+    "Botswana": {
+        "country": "Botswana",
+        "area km\u00b2": "581730",
+        "land km\u00b2": "566730",
+        "water km\u00b2": "15000",
+        "water %": "2.6"
+    },
+    "Kenya": {
+        "country": "Kenya",
+        "area km\u00b2": "580367",
+        "land km\u00b2": "569140",
+        "water km\u00b2": "11227",
+        "water %": "1.9"
+    },
+    "Yemen": {
+        "country": "Yemen",
+        "area km\u00b2": "555000",
+        "land km\u00b2": "555000",
+        "water km\u00b2": "0",
+        "water %": "0"
+    },
+    "Thailand": {
+        "country": "Thailand",
+        "area km\u00b2": "513120",
+        "land km\u00b2": "510890",
+        "water km\u00b2": "2230",
+        "water %": "0.4"
+    },
+    "Spain": {
+        "country": "Spain",
+        "area km\u00b2": "505992",
+        "land km\u00b2": "498980",
+        "water km\u00b2": "6390",
+        "water %": "1.3"
+    },
+    "Turkmenistan": {
+        "country": "Turkmenistan",
+        "area km\u00b2": "488100",
+        "land km\u00b2": "469930",
+        "water km\u00b2": "18170",
+        "water %": "3.7"
+    },
+    "Cameroon": {
+        "country": "Cameroon",
+        "area km\u00b2": "475442",
+        "land km\u00b2": "472710",
+        "water km\u00b2": "2730",
+        "water %": "0.6"
+    },
+    "Papua New Guinea": {
+        "country": "Papua New Guinea",
+        "area km\u00b2": "462840",
+        "land km\u00b2": "452860",
+        "water km\u00b2": "9980",
+        "water %": "2.2"
+    },
+    "Sweden": {
+        "country": "Sweden",
+        "area km\u00b2": "447425",
+        "land km\u00b2": "407284",
+        "water km\u00b2": "40142",
+        "water %": "9.0"
+    },
+    "Uzbekistan": {
+        "country": "Uzbekistan",
+        "area km\u00b2": "447400",
+        "land km\u00b2": "425400",
+        "water km\u00b2": "22000",
+        "water %": "4.9"
+    },
+    "Morocco": {
+        "country": "Morocco",
+        "area km\u00b2": "446550",
+        "land km\u00b2": "446300",
+        "water km\u00b2": "250",
+        "water %": "0.1"
+    },
+    "Iraq": {
+        "country": "Iraq",
+        "area km\u00b2": "438317",
+        "land km\u00b2": "437367",
+        "water km\u00b2": "950",
+        "water %": "0.2"
+    },
+    "Paraguay": {
+        "country": "Paraguay",
+        "area km\u00b2": "406752",
+        "land km\u00b2": "397302",
+        "water km\u00b2": "9450",
+        "water %": "2.3"
+    },
+    "Zimbabwe": {
+        "country": "Zimbabwe",
+        "area km\u00b2": "390757",
+        "land km\u00b2": "386847",
+        "water km\u00b2": "3910",
+        "water %": "1.0"
+    },
+    "Norway": {
+        "country": "Norway",
+        "area km\u00b2": "385207",
+        "land km\u00b2": "365957",
+        "water km\u00b2": "19520",
+        "water %": "5.1"
+    },
+    "Japan": {
+        "country": "Japan",
+        "area km\u00b2": "377976",
+        "land km\u00b2": "364546",
+        "water km\u00b2": "13430",
+        "water %": "3.6"
+    },
+    "Germany": {
+        "country": "Germany",
+        "area km\u00b2": "357114",
+        "land km\u00b2": "348672",
+        "water km\u00b2": "8350",
+        "water %": "2.3"
+    },
+    "Congo": {
+        "country": "Congo",
+        "area km\u00b2": "342000",
+        "land km\u00b2": "341500",
+        "water km\u00b2": "500",
+        "water %": "0.1"
+    },
+    "Finland": {
+        "country": "Finland",
+        "area km\u00b2": "338425",
+        "land km\u00b2": "303816",
+        "water km\u00b2": "34330",
+        "water %": "10.1"
+    },
+    "Vietnam": {
+        "country": "Vietnam",
+        "area km\u00b2": "331212",
+        "land km\u00b2": "310070",
+        "water km\u00b2": "21140",
+        "water %": "6.4"
+    },
+    "Malaysia": {
+        "country": "Malaysia",
+        "area km\u00b2": "330803",
+        "land km\u00b2": "329613",
+        "water km\u00b2": "1190",
+        "water %": "0.4"
+    },
+    "Ivory Coast": {
+        "country": "Ivory Coast",
+        "area km\u00b2": "322463",
+        "land km\u00b2": "318003",
+        "water km\u00b2": "4460",
+        "water %": "1.4"
+    },
+    "Poland": {
+        "country": "Poland",
+        "area km\u00b2": "312696",
+        "land km\u00b2": "311888",
+        "water km\u00b2": "791",
+        "water %": "0.3"
+    },
+    "Oman": {
+        "country": "Oman",
+        "area km\u00b2": "309500",
+        "land km\u00b2": "309500",
+        "water km\u00b2": "0",
+        "water %": "0"
+    },
+    "Italy": {
+        "country": "Italy",
+        "area km\u00b2": "301339",
+        "land km\u00b2": "294140",
+        "water km\u00b2": "7200",
+        "water %": "2.4"
+    },
+    "Philippines": {
+        "country": "Philippines",
+        "area km\u00b2": "300000",
+        "land km\u00b2": "298170",
+        "water km\u00b2": "1830",
+        "water %": "0.6"
+    },
+    "Ecuador": {
+        "country": "Ecuador",
+        "area km\u00b2": "276841",
+        "land km\u00b2": "256369",
+        "water km\u00b2": "6720",
+        "water %": "2.4"
+    },
+    "Burkina Faso": {
+        "country": "Burkina Faso",
+        "area km\u00b2": "274222",
+        "land km\u00b2": "273602",
+        "water km\u00b2": "620",
+        "water %": "0.2"
+    },
+    "New Zealand": {
+        "country": "New Zealand",
+        "area km\u00b2": "270467",
+        "land km\u00b2": "262443",
+        "water km\u00b2": "4395",
+        "water %": "1.6"
+    },
+    "Gabon": {
+        "country": "Gabon",
+        "area km\u00b2": "267668",
+        "land km\u00b2": "257667",
+        "water km\u00b2": "10001",
+        "water %": "3.7"
+    },
+    "Western Sahara": {
+        "country": "Western Sahara",
+        "area km\u00b2": "266000",
+        "land km\u00b2": "266000",
+        "water km\u00b2": "0",
+        "water %": "0"
+    },
+    "Guinea": {
+        "country": "Guinea",
+        "area km\u00b2": "245857",
+        "land km\u00b2": "245717",
+        "water km\u00b2": "140",
+        "water %": "0.1"
+    },
+    "United Kingdom": {
+        "country": "United Kingdom",
+        "area km\u00b2": "242495",
+        "land km\u00b2": "241930",
+        "water km\u00b2": "1680",
+        "water %": "0.7"
+    },
+    "Uganda": {
+        "country": "Uganda",
+        "area km\u00b2": "241550",
+        "land km\u00b2": "197100",
+        "water km\u00b2": "43938",
+        "water %": "18.2"
+    },
+    "Ghana": {
+        "country": "Ghana",
+        "area km\u00b2": "238533",
+        "land km\u00b2": "227533",
+        "water km\u00b2": "11000",
+        "water %": "4.6"
+    },
+    "Romania": {
+        "country": "Romania",
+        "area km\u00b2": "238397",
+        "land km\u00b2": "231291",
+        "water km\u00b2": "7100",
+        "water %": "3.0"
+    },
+    "Laos": {
+        "country": "Laos",
+        "area km\u00b2": "236800",
+        "land km\u00b2": "230800",
+        "water km\u00b2": "6000",
+        "water %": "2.5"
+    },
+    "Guyana": {
+        "country": "Guyana",
+        "area km\u00b2": "214969",
+        "land km\u00b2": "196849",
+        "water km\u00b2": "18120",
+        "water %": "8.4"
+    },
+    "Belarus": {
+        "country": "Belarus",
+        "area km\u00b2": "207600",
+        "land km\u00b2": "202900",
+        "water km\u00b2": "4700",
+        "water %": "2.3"
+    },
+    "Kyrgyzstan": {
+        "country": "Kyrgyzstan",
+        "area km\u00b2": "199951",
+        "land km\u00b2": "191801",
+        "water km\u00b2": "8150",
+        "water %": "4.1"
+    },
+    "Senegal": {
+        "country": "Senegal",
+        "area km\u00b2": "196722",
+        "land km\u00b2": "192530",
+        "water km\u00b2": "4192",
+        "water %": "2.1"
+    },
+    "Syria": {
+        "country": "Syria",
+        "area km\u00b2": "185180",
+        "land km\u00b2": "183630",
+        "water km\u00b2": "1550",
+        "water %": "0.8"
+    },
+    "Cambodia": {
+        "country": "Cambodia",
+        "area km\u00b2": "181035",
+        "land km\u00b2": "176515",
+        "water km\u00b2": "4520",
+        "water %": "2.5"
+    },
+    "Uruguay": {
+        "country": "Uruguay",
+        "area km\u00b2": "176215",
+        "land km\u00b2": "175015",
+        "water km\u00b2": "1200",
+        "water %": "0.7"
+    },
+    "Somaliland": {
+        "country": "Somaliland",
+        "area km\u00b2": "176120",
+        "land km\u00b2": "\t\t\t",
+        "water km\u00b2": null,
+        "water %": null
+    },
+    "Suriname": {
+        "country": "Suriname",
+        "area km\u00b2": "163820",
+        "land km\u00b2": "156000",
+        "water km\u00b2": "7820",
+        "water %": "4.8"
+    },
+    "Tunisia": {
+        "country": "Tunisia",
+        "area km\u00b2": "163610",
+        "land km\u00b2": "155360",
+        "water km\u00b2": "8250",
+        "water %": "5.0"
+    },
+    "Bangladesh": {
+        "country": "Bangladesh",
+        "area km\u00b2": "148460",
+        "land km\u00b2": "134208",
+        "water km\u00b2": "14252",
+        "water %": "9.6"
+    },
+    "Nepal": {
+        "country": "Nepal",
+        "area km\u00b2": "147516",
+        "land km\u00b2": "143686",
+        "water km\u00b2": "3830",
+        "water %": "2.6"
+    },
+    "Tajikistan": {
+        "country": "Tajikistan",
+        "area km\u00b2": "143100",
+        "land km\u00b2": "141510",
+        "water km\u00b2": "2590",
+        "water %": "1.8"
+    },
+    "Greece": {
+        "country": "Greece",
+        "area km\u00b2": "131957",
+        "land km\u00b2": "130647",
+        "water km\u00b2": "1310",
+        "water %": "1.0"
+    },
+    "Nicaragua": {
+        "country": "Nicaragua",
+        "area km\u00b2": "130373",
+        "land km\u00b2": "119990",
+        "water km\u00b2": "10380",
+        "water %": "8.0"
+    },
+    "Eritrea": {
+        "country": "Eritrea",
+        "area km\u00b2": "125000",
+        "land km\u00b2": "125000",
+        "water km\u00b2": "0",
+        "water %": "0"
+    },
+    "North Korea": {
+        "country": "North Korea",
+        "area km\u00b2": "120540",
+        "land km\u00b2": "120538",
+        "water km\u00b2": "2",
+        "water %": "0"
+    },
+    "Malawi": {
+        "country": "Malawi",
+        "area km\u00b2": "118484",
+        "land km\u00b2": "94080",
+        "water km\u00b2": "24404",
+        "water %": "20.6"
+    },
+    "Benin": {
+        "country": "Benin",
+        "area km\u00b2": "114763",
+        "land km\u00b2": "114305",
+        "water km\u00b2": "457.569",
+        "water %": "0.4"
+    },
+    "Honduras": {
+        "country": "Honduras",
+        "area km\u00b2": "112492",
+        "land km\u00b2": "111890",
+        "water km\u00b2": "200",
+        "water %": "0.2"
+    },
+    "Liberia": {
+        "country": "Liberia",
+        "area km\u00b2": "111369",
+        "land km\u00b2": "96320",
+        "water km\u00b2": "15049",
+        "water %": "13.5"
+    },
+    "Bulgaria": {
+        "country": "Bulgaria",
+        "area km\u00b2": "111002",
+        "land km\u00b2": "108612",
+        "water km\u00b2": "2390",
+        "water %": "2.2"
+    },
+    "Cuba": {
+        "country": "Cuba",
+        "area km\u00b2": "109884",
+        "land km\u00b2": "109884",
+        "water km\u00b2": "0",
+        "water %": "0"
+    },
+    "Guatemala": {
+        "country": "Guatemala",
+        "area km\u00b2": "108889",
+        "land km\u00b2": "107159",
+        "water km\u00b2": "1730",
+        "water %": "1.6"
+    },
+    "Iceland": {
+        "country": "Iceland",
+        "area km\u00b2": "103000",
+        "land km\u00b2": "100250",
+        "water km\u00b2": "2750",
+        "water %": "2.7"
+    },
+    "South Korea": {
+        "country": "South Korea",
+        "area km\u00b2": "100210",
+        "land km\u00b2": "99909",
+        "water km\u00b2": "301",
+        "water %": "0.3"
+    },
+    "Hungary": {
+        "country": "Hungary",
+        "area km\u00b2": "93028",
+        "land km\u00b2": "89608",
+        "water km\u00b2": "3420",
+        "water %": "3.7"
+    },
+    "Portugal": {
+        "country": "Portugal",
+        "area km\u00b2": "92226",
+        "land km\u00b2": "91119",
+        "water km\u00b2": "1107",
+        "water %": "1.2"
+    },
+    "Jordan": {
+        "country": "Jordan",
+        "area km\u00b2": "89342",
+        "land km\u00b2": "88802",
+        "water km\u00b2": "540",
+        "water %": "0.6"
+    },
+    "Serbia": {
+        "country": "Serbia",
+        "area km\u00b2": "88361",
+        "land km\u00b2": "88246",
+        "water km\u00b2": "115",
+        "water %": "0.1"
+    },
+    "Azerbaijan": {
+        "country": "Azerbaijan",
+        "area km\u00b2": "86600",
+        "land km\u00b2": "86100",
+        "water km\u00b2": "500",
+        "water %": "0.6"
+    },
+    "Austria": {
+        "country": "Austria",
+        "area km\u00b2": "83871",
+        "land km\u00b2": "82445",
+        "water km\u00b2": "1426",
+        "water %": "1.7"
+    },
+    "United Arab Emirates": {
+        "country": "United Arab Emirates",
+        "area km\u00b2": "83600",
+        "land km\u00b2": "83600",
+        "water km\u00b2": "0",
+        "water %": "0"
+    },
+    "Czech Republic": {
+        "country": "Czech Republic",
+        "area km\u00b2": "78871",
+        "land km\u00b2": "77187",
+        "water km\u00b2": "1684",
+        "water %": "2.1"
+    },
+    "Panama": {
+        "country": "Panama",
+        "area km\u00b2": "75417",
+        "land km\u00b2": "74340",
+        "water km\u00b2": "1080",
+        "water %": "1.4"
+    },
+    "Sierra Leone": {
+        "country": "Sierra Leone",
+        "area km\u00b2": "71740",
+        "land km\u00b2": "71620",
+        "water km\u00b2": "120",
+        "water %": "0.2"
+    },
+    "Ireland": {
+        "country": "Ireland",
+        "area km\u00b2": "70273",
+        "land km\u00b2": "68883",
+        "water km\u00b2": "1390",
+        "water %": "2.0"
+    },
+    "Georgia": {
+        "country": "Georgia",
+        "area km\u00b2": "69700",
+        "land km\u00b2": "69700",
+        "water km\u00b2": "0",
+        "water %": "0"
+    },
+    "Sri Lanka": {
+        "country": "Sri Lanka",
+        "area km\u00b2": "65610",
+        "land km\u00b2": "62732",
+        "water km\u00b2": "2878",
+        "water %": "4.4"
+    },
+    "Lithuania": {
+        "country": "Lithuania",
+        "area km\u00b2": "65300",
+        "land km\u00b2": "62680",
+        "water km\u00b2": "2620",
+        "water %": "4.0"
+    },
+    "Latvia": {
+        "country": "Latvia",
+        "area km\u00b2": "64559",
+        "land km\u00b2": "62249",
+        "water km\u00b2": "2340",
+        "water %": "3.6"
+    },
+    "Togo": {
+        "country": "Togo",
+        "area km\u00b2": "56785",
+        "land km\u00b2": "54385",
+        "water km\u00b2": "2400",
+        "water %": "4.2"
+    },
+    "Croatia": {
+        "country": "Croatia",
+        "area km\u00b2": "56594",
+        "land km\u00b2": "55974",
+        "water km\u00b2": "620",
+        "water %": "1.1"
+    },
+    "Bosnia and Herzegovina": {
+        "country": "Bosnia and Herzegovina",
+        "area km\u00b2": "51209",
+        "land km\u00b2": "51187",
+        "water km\u00b2": "10",
+        "water %": "0"
+    },
+    "Costa Rica": {
+        "country": "Costa Rica",
+        "area km\u00b2": "51100",
+        "land km\u00b2": "51060",
+        "water km\u00b2": "40",
+        "water %": "0.1"
+    },
+    "Slovakia": {
+        "country": "Slovakia",
+        "area km\u00b2": "49037",
+        "land km\u00b2": "48105",
+        "water km\u00b2": "930",
+        "water %": "1.9"
+    },
+    "Dominican Republic": {
+        "country": "Dominican Republic",
+        "area km\u00b2": "48671",
+        "land km\u00b2": "48320",
+        "water km\u00b2": "350",
+        "water %": "0.7"
+    },
+    "Estonia": {
+        "country": "Estonia",
+        "area km\u00b2": "45227",
+        "land km\u00b2": "42388",
+        "water km\u00b2": "2840",
+        "water %": "6.3"
+    },
+    "Netherlands": {
+        "country": "Netherlands",
+        "area km\u00b2": "41850",
+        "land km\u00b2": "33893",
+        "water km\u00b2": "7957",
+        "water %": "19.0"
+    },
+    "Switzerland": {
+        "country": "Switzerland",
+        "area km\u00b2": "41284",
+        "land km\u00b2": "39997",
+        "water km\u00b2": "1280",
+        "water %": "3.1"
+    },
+    "Bhutan": {
+        "country": "Bhutan",
+        "area km\u00b2": "38394",
+        "land km\u00b2": "38394",
+        "water km\u00b2": "0",
+        "water %": "0"
+    },
+    "Taiwan": {
+        "country": "Taiwan",
+        "area km\u00b2": "36193",
+        "land km\u00b2": "32260",
+        "water km\u00b2": "3720",
+        "water %": "10.3"
+    },
+    "Guinea-Bissau": {
+        "country": "Guinea-Bissau",
+        "area km\u00b2": "36125",
+        "land km\u00b2": "28120",
+        "water km\u00b2": "8005",
+        "water %": "22.2"
+    },
+    "Moldova": {
+        "country": "Moldova",
+        "area km\u00b2": "33846",
+        "land km\u00b2": "32891",
+        "water km\u00b2": "960",
+        "water %": "2.8"
+    },
+    "Belgium": {
+        "country": "Belgium",
+        "area km\u00b2": "30528",
+        "land km\u00b2": "30278",
+        "water km\u00b2": "250",
+        "water %": "0.8"
+    },
+    "Lesotho": {
+        "country": "Lesotho",
+        "area km\u00b2": "30355",
+        "land km\u00b2": "30355",
+        "water km\u00b2": "0",
+        "water %": "0"
+    },
+    "Armenia": {
+        "country": "Armenia",
+        "area km\u00b2": "29743",
+        "land km\u00b2": "28342",
+        "water km\u00b2": "1401",
+        "water %": "4.7"
+    },
+    "Solomon Islands": {
+        "country": "Solomon Islands",
+        "area km\u00b2": "28896",
+        "land km\u00b2": "27986",
+        "water km\u00b2": "910",
+        "water %": "3.1"
+    },
+    "Albania": {
+        "country": "Albania",
+        "area km\u00b2": "28748",
+        "land km\u00b2": "27398",
+        "water km\u00b2": "1350",
+        "water %": "4.7"
+    },
+    "Equatorial Guinea": {
+        "country": "Equatorial Guinea",
+        "area km\u00b2": "28051",
+        "land km\u00b2": "28051",
+        "water km\u00b2": "0",
+        "water %": "0"
+    },
+    "Burundi": {
+        "country": "Burundi",
+        "area km\u00b2": "27834",
+        "land km\u00b2": "25680",
+        "water km\u00b2": "2150",
+        "water %": "7.7"
+    },
+    "Haiti": {
+        "country": "Haiti",
+        "area km\u00b2": "27750",
+        "land km\u00b2": "27560",
+        "water km\u00b2": "190",
+        "water %": "0.7"
+    },
+    "Rwanda": {
+        "country": "Rwanda",
+        "area km\u00b2": "26338",
+        "land km\u00b2": "24668",
+        "water km\u00b2": "1670",
+        "water %": "6.3"
+    },
+    "North Macedonia": {
+        "country": "North Macedonia",
+        "area km\u00b2": "25713",
+        "land km\u00b2": "25433",
+        "water km\u00b2": "280",
+        "water %": "1.1"
+    },
+    "Djibouti": {
+        "country": "Djibouti",
+        "area km\u00b2": "23200",
+        "land km\u00b2": "23180",
+        "water km\u00b2": "20",
+        "water %": "0.1"
+    },
+    "Belize": {
+        "country": "Belize",
+        "area km\u00b2": "22966",
+        "land km\u00b2": "22806",
+        "water km\u00b2": "160",
+        "water %": "0.7"
+    },
+    "El Salvador": {
+        "country": "El Salvador",
+        "area km\u00b2": "21041",
+        "land km\u00b2": "20721",
+        "water km\u00b2": "320",
+        "water %": "1.5"
+    },
+    "Israel": {
+        "country": "Israel",
+        "area km\u00b2": "20770",
+        "land km\u00b2": "20330",
+        "water km\u00b2": "440",
+        "water %": "2.1"
+    },
+    "Slovenia": {
+        "country": "Slovenia",
+        "area km\u00b2": "20273",
+        "land km\u00b2": "20151",
+        "water km\u00b2": "122",
+        "water %": "0.6"
+    },
+    "Fiji": {
+        "country": "Fiji",
+        "area km\u00b2": "18272",
+        "land km\u00b2": "18274",
+        "water km\u00b2": "0",
+        "water %": "0"
+    },
+    "Kuwait": {
+        "country": "Kuwait",
+        "area km\u00b2": "17818",
+        "land km\u00b2": "17818",
+        "water km\u00b2": "0",
+        "water %": "0"
+    },
+    "Eswatini": {
+        "country": "Eswatini",
+        "area km\u00b2": "17364",
+        "land km\u00b2": "17204",
+        "water km\u00b2": "160",
+        "water %": "0.9"
+    },
+    "East Timor": {
+        "country": "East Timor",
+        "area km\u00b2": "14919",
+        "land km\u00b2": "14919",
+        "water km\u00b2": "0",
+        "water %": "0"
+    },
+    "Bahamas": {
+        "country": "Bahamas",
+        "area km\u00b2": "13943",
+        "land km\u00b2": "10010",
+        "water km\u00b2": "3870",
+        "water %": "27.8"
+    },
+    "Montenegro": {
+        "country": "Montenegro",
+        "area km\u00b2": "13812",
+        "land km\u00b2": "13452",
+        "water km\u00b2": "360",
+        "water %": "2.6"
+    },
+    "Vanuatu": {
+        "country": "Vanuatu",
+        "area km\u00b2": "12189",
+        "land km\u00b2": "12189",
+        "water km\u00b2": "0",
+        "water %": "0"
+    },
+    "Qatar": {
+        "country": "Qatar",
+        "area km\u00b2": "11586",
+        "land km\u00b2": "11586",
+        "water km\u00b2": "0",
+        "water %": "0"
+    },
+    "Gambia": {
+        "country": "Gambia",
+        "area km\u00b2": "11295",
+        "land km\u00b2": "10000",
+        "water km\u00b2": "1295",
+        "water %": "11.5"
+    },
+    "Jamaica": {
+        "country": "Jamaica",
+        "area km\u00b2": "10991",
+        "land km\u00b2": "10831",
+        "water km\u00b2": "160",
+        "water %": "1.5"
+    },
+    "Kosovo": {
+        "country": "Kosovo",
+        "area km\u00b2": "10887",
+        "land km\u00b2": "",
+        "water km\u00b2": "",
+        "water %": "\t\t"
+    },
+    "Lebanon": {
+        "country": "Lebanon",
+        "area km\u00b2": "10452",
+        "land km\u00b2": "10230",
+        "water km\u00b2": "170",
+        "water %": "1.6"
+    },
+    "Cyprus": {
+        "country": "Cyprus",
+        "area km\u00b2": "9251",
+        "land km\u00b2": "9241",
+        "water km\u00b2": "10",
+        "water %": "0.1"
+    },
+    "Palestine": {
+        "country": "Palestine",
+        "area km\u00b2": "6220",
+        "land km\u00b2": "6000",
+        "water km\u00b2": "220",
+        "water %": "3.5"
+    },
+    "Brunei": {
+        "country": "Brunei",
+        "area km\u00b2": "5765",
+        "land km\u00b2": "5265",
+        "water km\u00b2": "500",
+        "water %": "8.7"
+    },
+    "Trinidad and Tobago": {
+        "country": "Trinidad and Tobago",
+        "area km\u00b2": "5130",
+        "land km\u00b2": "5128",
+        "water km\u00b2": "0",
+        "water %": "0"
+    },
+    "Cape Verde": {
+        "country": "Cape Verde",
+        "area km\u00b2": "4033",
+        "land km\u00b2": "4033",
+        "water km\u00b2": "0",
+        "water %": "0"
+    },
+    "Samoa": {
+        "country": "Samoa",
+        "area km\u00b2": "2842",
+        "land km\u00b2": "2821",
+        "water km\u00b2": "10",
+        "water %": "0.4"
+    },
+    "Luxembourg": {
+        "country": "Luxembourg",
+        "area km\u00b2": "2586",
+        "land km\u00b2": "2586",
+        "water km\u00b2": "0",
+        "water %": "0"
+    },
+    "Mauritius": {
+        "country": "Mauritius",
+        "area km\u00b2": "2040",
+        "land km\u00b2": "2030",
+        "water km\u00b2": "10",
+        "water %": "0.5"
+    },
+    "Comoros": {
+        "country": "Comoros",
+        "area km\u00b2": "1862",
+        "land km\u00b2": "1862",
+        "water km\u00b2": "0",
+        "water %": "0"
+    },
+    "S\u00e3o Tom\u00e9 and Pr\u00edncipe": {
+        "country": "S\u00e3o Tom\u00e9 and Pr\u00edncipe",
+        "area km\u00b2": "964",
+        "land km\u00b2": "964",
+        "water km\u00b2": "0",
+        "water %": "0"
+    },
+    "Kiribati": {
+        "country": "Kiribati",
+        "area km\u00b2": "811",
+        "land km\u00b2": "811",
+        "water km\u00b2": "0",
+        "water %": "0"
+    },
+    "Bahrain": {
+        "country": "Bahrain",
+        "area km\u00b2": "786",
+        "land km\u00b2": "786",
+        "water km\u00b2": "0",
+        "water %": "0"
+    },
+    "Dominica": {
+        "country": "Dominica",
+        "area km\u00b2": "751",
+        "land km\u00b2": "751",
+        "water km\u00b2": "0",
+        "water %": "0"
+    },
+    "Tonga": {
+        "country": "Tonga",
+        "area km\u00b2": "747",
+        "land km\u00b2": "717",
+        "water km\u00b2": "30",
+        "water %": "4.0"
+    },
+    "Singapore": {
+        "country": "Singapore",
+        "area km\u00b2": "728",
+        "land km\u00b2": "716",
+        "water km\u00b2": "10",
+        "water %": "1.4"
+    },
+    "Micronesia": {
+        "country": "Micronesia",
+        "area km\u00b2": "702",
+        "land km\u00b2": "702",
+        "water km\u00b2": "0",
+        "water %": "0"
+    },
+    "Saint Lucia": {
+        "country": "Saint Lucia",
+        "area km\u00b2": "616",
+        "land km\u00b2": "606",
+        "water km\u00b2": "10",
+        "water %": "1.6"
+    },
+    "Andorra": {
+        "country": "Andorra",
+        "area km\u00b2": "468",
+        "land km\u00b2": "468",
+        "water km\u00b2": "0",
+        "water %": "0"
+    },
+    "Palau": {
+        "country": "Palau",
+        "area km\u00b2": "459",
+        "land km\u00b2": "459",
+        "water km\u00b2": "0",
+        "water %": "0"
+    },
+    "Seychelles": {
+        "country": "Seychelles",
+        "area km\u00b2": "452",
+        "land km\u00b2": "455",
+        "water km\u00b2": "0",
+        "water %": "0"
+    },
+    "Antigua and Barbuda": {
+        "country": "Antigua and Barbuda",
+        "area km\u00b2": "442",
+        "land km\u00b2": "442",
+        "water km\u00b2": "0",
+        "water %": "0"
+    },
+    "Barbados": {
+        "country": "Barbados",
+        "area km\u00b2": "430",
+        "land km\u00b2": "431",
+        "water km\u00b2": "0",
+        "water %": "0"
+    },
+    "Saint Vincent and the Grenadines": {
+        "country": "Saint Vincent and the Grenadines",
+        "area km\u00b2": "389",
+        "land km\u00b2": "389",
+        "water km\u00b2": "0",
+        "water %": "0"
+    },
+    "Grenada": {
+        "country": "Grenada",
+        "area km\u00b2": "344",
+        "land km\u00b2": "344",
+        "water km\u00b2": "0",
+        "water %": "0"
+    },
+    "Malta": {
+        "country": "Malta",
+        "area km\u00b2": "316",
+        "land km\u00b2": "316",
+        "water km\u00b2": "0",
+        "water %": "0"
+    },
+    "Maldives": {
+        "country": "Maldives",
+        "area km\u00b2": "300",
+        "land km\u00b2": "298",
+        "water km\u00b2": "0",
+        "water %": "0"
+    },
+    "Saint Kitts and Nevis": {
+        "country": "Saint Kitts and Nevis",
+        "area km\u00b2": "261",
+        "land km\u00b2": "261",
+        "water km\u00b2": "0",
+        "water %": "0"
+    },
+    "Cook Islands": {
+        "country": "Cook Islands",
+        "area km\u00b2": "236",
+        "land km\u00b2": "236",
+        "water km\u00b2": "0",
+        "water %": "0"
+    },
+    "Marshall Islands": {
+        "country": "Marshall Islands",
+        "area km\u00b2": "181",
+        "land km\u00b2": "181",
+        "water km\u00b2": "0",
+        "water %": "0"
+    },
+    "Liechtenstein": {
+        "country": "Liechtenstein",
+        "area km\u00b2": "160",
+        "land km\u00b2": "160",
+        "water km\u00b2": "0",
+        "water %": "0"
+    },
+    "San Marino": {
+        "country": "San Marino",
+        "area km\u00b2": "61",
+        "land km\u00b2": "61",
+        "water km\u00b2": "0",
+        "water %": "0"
+    },
+    "Tuvalu": {
+        "country": "Tuvalu",
+        "area km\u00b2": "26",
+        "land km\u00b2": "26",
+        "water km\u00b2": "0",
+        "water %": "0"
+    },
+    "Nauru": {
+        "country": "Nauru",
+        "area km\u00b2": "21",
+        "land km\u00b2": "21",
+        "water km\u00b2": "0",
+        "water %": "0"
+    },
+    "Monaco": {
+        "country": "Monaco",
+        "area km\u00b2": "2.02",
+        "land km\u00b2": "2.02",
+        "water km\u00b2": "0",
+        "water %": "0"
+    },
+    "Vatican City": {
+        "country": "Vatican City",
+        "area km\u00b2": "0.49",
+        "land km\u00b2": "0.49",
+        "water km\u00b2": "0",
+        "water %": "0"
+    }
+}

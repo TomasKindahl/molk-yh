@@ -1,0 +1,3 @@
+Arne|Svensson|87|013-131313
+Berith|Qvist|72|014-151617
+Nisse|Hult|10|076-89012345

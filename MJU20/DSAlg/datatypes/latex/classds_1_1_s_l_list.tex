@@ -1,0 +1,134 @@
+\hypertarget{classds_1_1_s_l_list}{}\doxysection{ds.\+SLList\texorpdfstring{$<$}{<} T \texorpdfstring{$>$}{>} Class Template Reference}
+\label{classds_1_1_s_l_list}\index{ds.SLList$<$ T $>$@{ds.SLList$<$ T $>$}}
+
+
+Generic Single Linked List  
+
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classds_1_1_s_l_list_a0ad89f723af4446e8893c8bd1cd26eab}\label{classds_1_1_s_l_list_a0ad89f723af4446e8893c8bd1cd26eab}} 
+{\bfseries SLList} ()
+\begin{DoxyCompactList}\small\item\em Create an empty link with no next link \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classds_1_1_s_l_list_a376322e77dffdf41845fe45088744ffb}{SLList}} (T val, \mbox{\hyperlink{classds_1_1_s_l_list}{SLList}}$<$ T $>$ nx)
+\begin{DoxyCompactList}\small\item\em Create a link with a certain value and a next link \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classds_1_1_s_l_list_a665f09ed0da4ea47f83893ce23772ffb}{SLList}} (int size)
+\begin{DoxyCompactList}\small\item\em Create an entire link list with a certain lengths \end{DoxyCompactList}\item 
+T \mbox{\hyperlink{classds_1_1_s_l_list_a957e7af184fe55e956975938f5b331bd}{Get\+Val}} ()
+\begin{DoxyCompactList}\small\item\em Get the value in the current link \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classds_1_1_s_l_list_a226f5ff6abbbad6aba6364b4d2e452b1}{Set\+Val}} (T val)
+\begin{DoxyCompactList}\small\item\em Set the value in the current link \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classds_1_1_s_l_list}{SLList}}$<$ T $>$ \mbox{\hyperlink{classds_1_1_s_l_list_a0c7c0300d6d3cc9950d75f58ff1681fa}{Get\+Next}} ()
+\begin{DoxyCompactList}\small\item\em Get the next link appointed from the current link \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classds_1_1_s_l_list_afc0081a907362de66c39ac094dd95aec}{Set\+Next}} (\mbox{\hyperlink{classds_1_1_s_l_list}{SLList}}$<$ T $>$ nx)
+\begin{DoxyCompactList}\small\item\em Set a new next link to appoint the current link \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Generic Single Linked List 
+
+
+\begin{DoxyTemplParams}{Template Parameters}
+{\em T} & the base type\\
+\hline
+\end{DoxyTemplParams}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classds_1_1_s_l_list_a376322e77dffdf41845fe45088744ffb}\label{classds_1_1_s_l_list_a376322e77dffdf41845fe45088744ffb}} 
+\index{ds.SLList$<$ T $>$@{ds.SLList$<$ T $>$}!SLList@{SLList}}
+\index{SLList@{SLList}!ds.SLList$<$ T $>$@{ds.SLList$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{SLList()}{SLList()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classds_1_1_s_l_list}{ds.\+SLList}}$<$ T $>$.\mbox{\hyperlink{classds_1_1_s_l_list}{SLList}} (\begin{DoxyParamCaption}\item[{T}]{val,  }\item[{\mbox{\hyperlink{classds_1_1_s_l_list}{SLList}}$<$ T $>$}]{nx }\end{DoxyParamCaption})}
+
+
+
+Create a link with a certain value and a next link 
+
+
+\begin{DoxyParams}{Parameters}
+{\em val} & the value\\
+\hline
+{\em nx} & the next link\\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classds_1_1_s_l_list_a665f09ed0da4ea47f83893ce23772ffb}\label{classds_1_1_s_l_list_a665f09ed0da4ea47f83893ce23772ffb}} 
+\index{ds.SLList$<$ T $>$@{ds.SLList$<$ T $>$}!SLList@{SLList}}
+\index{SLList@{SLList}!ds.SLList$<$ T $>$@{ds.SLList$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{SLList()}{SLList()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classds_1_1_s_l_list}{ds.\+SLList}}$<$ T $>$.\mbox{\hyperlink{classds_1_1_s_l_list}{SLList}} (\begin{DoxyParamCaption}\item[{int}]{size }\end{DoxyParamCaption})}
+
+
+
+Create an entire link list with a certain lengths 
+
+
+\begin{DoxyParams}{Parameters}
+{\em size} & the number of links created\\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classds_1_1_s_l_list_a0c7c0300d6d3cc9950d75f58ff1681fa}\label{classds_1_1_s_l_list_a0c7c0300d6d3cc9950d75f58ff1681fa}} 
+\index{ds.SLList$<$ T $>$@{ds.SLList$<$ T $>$}!GetNext@{GetNext}}
+\index{GetNext@{GetNext}!ds.SLList$<$ T $>$@{ds.SLList$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{GetNext()}{GetNext()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classds_1_1_s_l_list}{SLList}}$<$ T $>$ \mbox{\hyperlink{classds_1_1_s_l_list}{ds.\+SLList}}$<$ T $>$.Get\+Next (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Get the next link appointed from the current link 
+
+\begin{DoxyReturn}{Returns}
+the next link
+\end{DoxyReturn}
+\mbox{\Hypertarget{classds_1_1_s_l_list_a957e7af184fe55e956975938f5b331bd}\label{classds_1_1_s_l_list_a957e7af184fe55e956975938f5b331bd}} 
+\index{ds.SLList$<$ T $>$@{ds.SLList$<$ T $>$}!GetVal@{GetVal}}
+\index{GetVal@{GetVal}!ds.SLList$<$ T $>$@{ds.SLList$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{GetVal()}{GetVal()}}
+{\footnotesize\ttfamily T \mbox{\hyperlink{classds_1_1_s_l_list}{ds.\+SLList}}$<$ T $>$.Get\+Val (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Get the value in the current link 
+
+\begin{DoxyReturn}{Returns}
+the value in the link
+\end{DoxyReturn}
+\mbox{\Hypertarget{classds_1_1_s_l_list_afc0081a907362de66c39ac094dd95aec}\label{classds_1_1_s_l_list_afc0081a907362de66c39ac094dd95aec}} 
+\index{ds.SLList$<$ T $>$@{ds.SLList$<$ T $>$}!SetNext@{SetNext}}
+\index{SetNext@{SetNext}!ds.SLList$<$ T $>$@{ds.SLList$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{SetNext()}{SetNext()}}
+{\footnotesize\ttfamily void \mbox{\hyperlink{classds_1_1_s_l_list}{ds.\+SLList}}$<$ T $>$.Set\+Next (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classds_1_1_s_l_list}{SLList}}$<$ T $>$}]{nx }\end{DoxyParamCaption})}
+
+
+
+Set a new next link to appoint the current link 
+
+
+\begin{DoxyParams}{Parameters}
+{\em nx} & the new next link to appoint\\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classds_1_1_s_l_list_a226f5ff6abbbad6aba6364b4d2e452b1}\label{classds_1_1_s_l_list_a226f5ff6abbbad6aba6364b4d2e452b1}} 
+\index{ds.SLList$<$ T $>$@{ds.SLList$<$ T $>$}!SetVal@{SetVal}}
+\index{SetVal@{SetVal}!ds.SLList$<$ T $>$@{ds.SLList$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{SetVal()}{SetVal()}}
+{\footnotesize\ttfamily void \mbox{\hyperlink{classds_1_1_s_l_list}{ds.\+SLList}}$<$ T $>$.Set\+Val (\begin{DoxyParamCaption}\item[{T}]{val }\end{DoxyParamCaption})}
+
+
+
+Set the value in the current link 
+
+
+\begin{DoxyParams}{Parameters}
+{\em val} & the new value of the link\\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+ds.\+cs\end{DoxyCompactItemize}

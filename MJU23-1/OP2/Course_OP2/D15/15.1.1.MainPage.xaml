@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="d15mauibildbladdrare.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+            <Image
+                x:Name="GalleryImage"
+                Source="gora_strimba_vzhimky.jpg"
+                HeightRequest="185"
+                Aspect="AspectFit"
+                SemanticProperties.Description="dot net bot in a race car number eight" />
+            <HorizontalStackLayout Spacing="10" HorizontalOptions="Center">
+                <Button x:Name="PrevBtn"
+                        Text="Prev"
+                        Clicked="OnPrevClicked"
+                        HorizontalOptions="Fill"/>
+                <Button x:Name="NextBtn"
+                        Text="Next"
+                        Clicked="OnNextClicked"
+                        HorizontalOptions="Fill" />
+            </HorizontalStackLayout>
+
+            <Label
+                x:Name="ImageText"
+                Text="File: gora_strimba_vzhimky.jpg"
+                Style="{StaticResource SubHeadline}"
+                SemanticProperties.HeadingLevel="Level2"
+                SemanticProperties.Description="File: gora_strimba_vzhimky.jpg" />
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

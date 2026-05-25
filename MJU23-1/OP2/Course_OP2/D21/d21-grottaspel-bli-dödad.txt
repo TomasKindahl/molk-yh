@@ -1,0 +1,11 @@
+NAMN:        Bli dödad av monster
+Aktörer:     spelare (karaktär, monster), spel
+Mål:         (komma tillbaka till huvudmenyn??)
+Förvillkor:  karaktär är på spelplan och slåss med monster
+Trigger:     karaktärs hp <= 0
+Grundflöde:
+    1. spelet animerar R.I.P.
+    2. spelet visar karaktärens namn och poäng
+    3. spelaren trycker på OK
+    4. spelet går till huvudmenyn
+Kommentarer: -

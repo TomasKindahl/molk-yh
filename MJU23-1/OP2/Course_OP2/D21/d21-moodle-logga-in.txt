@@ -1,0 +1,17 @@
+NAMN:        Logga in
+Aktörer:     elev/lärare
+Mål:         elev inloggad på Moodle (och har access till kursmaterial)
+Förvillkor:  elev har konto och är registrerad på kurs
+Trigger:     kl 9.00 måndag till torsdag och inte helg, eller annat behov
+Grundflöde:
+    1. elev öppnar websida moodle.molk.se i browsern
+    2. moodle.molk.se dyker upp
+    3. elev klickar i övre högra hörnet på länken Log in
+    4. inloggningsformulär dyker upp
+    5. elev skriver in username (om inte redan automatiskt ifyllt av browsern)
+    6. elev klickar på inmatningsrutan för password
+    7. menyn för browser-sparat lösenord dyker uppdatera
+    8. elev väljer lösenord på menyn, lösenord fylls i
+    9. elev trycker på login
+Kommentarer: Inspelat med zoom på videon inloggning-moodle
+    https://player.vimeo.com/video/946455660?h=28f7ae9f62

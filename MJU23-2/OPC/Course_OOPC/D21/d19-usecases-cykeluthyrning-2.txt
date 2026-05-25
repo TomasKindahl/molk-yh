@@ -1,0 +1,63 @@
+NAMN:       Inventering
+Aktörer:    Uthyrare
+Mål:        kolla var alla cyklar finns och om är i skick
+Förvillkor: --
+Trigger:    klockan är 6.00
+Grundflöde: 
+   1. gå igenom cykelställ för återlämning:
+   2.     kolla om den behöver repareras
+   3.     I SÅ FALL:
+   4.        registrera för service,
+   5.        flytta till cykelställ för service
+   6.     ANNARS:
+   7.        registrerar för ledig,
+   8.        flytta till cykelställ för lediga
+   9. gå igenom databasen:
+   10.    kolla om uthyrd
+   11.    I SÅ FALL:
+   12.       registrera som saknas
+---------------------------------------------
+NAMN:       Uthyrning
+Aktörer:    Uthyrare, kund, användare
+Mål:        hyr ut så många cyklar som kunden behöver
+Förvillkor: kunden har pengar, det finns uthyrbara cyklar
+Trigger:    kunden önskar hyra cyklar
+Grundflöde: 
+   1. kunden kommer in i butiken och önskar cyklar
+   2. uthyrare frågar efter önskad typ och hjulstorlek
+   3. kunden berättar önskad typ och hjulstorlek
+   4. uthyrare identifierar cyklar i databasen
+   5. uthyrare frågar kund efter legitimation
+   6. kund ger leg
+   7. uthyrare kontrollerar leg
+   8. OM KUND EJ OK ==> AVBRYT
+   9. OM KUND EJ FINNS I DB:
+   10.    REGISTRERA kund
+   11. uthyrare frågar kund efter betalning
+   12. kund betalar
+   13. OM BETALNING EJ OK ==> AVBRYT
+   14. uthyrare visar cyklar för användare 
+   15. uthyrare justerar cyklar efter användare
+   16. användare cyklar iväg
+---------------------------------------------
+NAMN:       Registrering
+Aktörer:    Kund, uthyrare
+Mål:        kunden skall vara registrerad i kunddatabasen
+Förvillkor: kunden ska ha legitimation, är inte registerad i kunddatabas
+Trigger:    kunden önskar hyra
+Grundflöde: 
+   1. uthyrare scannar leget (information går in i DB)
+   2. uthyrare frågar efter adress och telefon
+   3. kunden ger adress och telefon
+   4. uthyrare frågar efter påskrift
+   5. kunden skriver på
+---------------------------------------------
+NAMN:       Återlämning
+Aktörer:    Kund eller användare
+Mål:        cyklar återlämnade till återlämningsstället
+Förvillkor: --
+Trigger:    --
+Grundflöde: 
+   1. användare ställer cyklarna i anvisat cykelställ
+   2. användare låser cyklarna
+   3. cykelnyklarna läggs i speciell brevlåda

@@ -1,0 +1,19 @@
+NAMN:        Lägg upp bild på sida
+Aktörer:     användare
+Mål:         en bild skall flyttas från mappen "osorterade bilder"
+             till en sida
+Förvillkor:  användaren har öppnat mappen "osorterade bilder"
+Trigger:     -
+Grundflöde:
+    1. användaren markerar en bild i mappen "osorterade bilder"
+    2. användaren högerklickar på bilden
+    3. programmet tar upp en meny
+    4. användaren väljer menyvalet "lägg upp bild på sida"
+    5. dialogen "välj sida" dyker upp:
+       uppe syns bilden bild, nere syns sidor, med deras datum och
+       rubriktext
+    6. användaren väljer en sida,
+    7. sidan dyker upp med den nya sidan på (nere till vänster?)
+    8. användaren flyttar och storleksändrar bilden
+    9. användaren sätter etikett på bilden
+Kommentarer: 

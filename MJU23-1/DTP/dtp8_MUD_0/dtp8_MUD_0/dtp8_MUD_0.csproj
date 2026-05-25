@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="fall.png" />
+    <None Remove="ingang-stangd.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="fall.png" />
+    <Resource Include="ingang-stangd.png" />
+  </ItemGroup>
+
+</Project>

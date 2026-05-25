@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.0.0">
+  <help_text/>
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>360</x>
+      <y>330</y>
+      <w>210</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>Circle
+--
+−radius : double
+--
++Area()
+--</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>380</x>
+      <y>150</y>
+      <w>210</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>Shape
+--
+−rotation : double
+--
+/+Area()/
+--</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>460</x>
+      <y>230</y>
+      <w>80</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>60.0;10.0;10.0;100.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>110</x>
+      <y>330</y>
+      <w>210</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>Rectangle
+--
+−height : double
+−width : double
+--
++Area()
+--</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>200</x>
+      <y>230</y>
+      <w>280</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>260.0;10.0;10.0;100.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>50</x>
+      <y>150</y>
+      <w>210</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>Point
+--
+−X : double
+−Y : double
+--
+--</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>230</x>
+      <y>170</y>
+      <w>170</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=[origo]-&gt;&gt;&gt;&gt;
+m2=1
+m1=1
+</panel_attributes>
+    <additional_attributes>30.0;20.0;150.0;20.0</additional_attributes>
+  </element>
+</diagram>

@@ -1,0 +1,19 @@
+NAMN:       Beställ mat
+Aktörer:    Servitör, Gäst
+Mål:        det ska komma en beställning till köket
+Förvillkor: Gästerna sitter vid ett bord (Use case!!),
+            Gästerna har valt på menyn (kanske use case?)
+Trigger:    Gästerna viftar!
+Grundflöde: 
+            1. servitören (klass?) kommer till bordet (klass?)
+            2. servitören frågar, har alla valt?
+            3. OM alla har valt:
+            4.    FÖR ALLA gäster:
+            5.        servitören: fråga efter maträtt
+            6.        gäst: anger vald maträtt
+            7.        servitören: noterar maträtt på notblocket
+            8.        servitören: fråga efter dryck
+            9.        gäst: anger dryck
+            10.        servitören: noterar dryck på notblocket 
+            11. servitören tackar och går
+            12. servitören går till köket och sätter notbladet (bord) på anslagstavla

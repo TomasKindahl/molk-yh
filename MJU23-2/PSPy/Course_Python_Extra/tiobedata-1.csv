@@ -1,0 +1,21 @@
+Jul 2021;Jul 2020;Change;page;Programming Language;Ratings;Change
+1;1;x;C page;C;11.62;-4.83
+2;2;x;Java page;Java;11.17;-3.93
+3;3;x;Python page;Python;10.95;+1.86
+4;4;x;C++ page;C++;8.01;+1.80
+5;5;x;C# page;C#;4.83;-0.42
+6;6;x;Visual Basic page;Visual Basic;4.50;-0.73
+7;7;x;JavaScript page;JavaScript;2.71;+0.23
+8;9;change;PHP page;PHP;2.58;+0.68
+9;13;change;Assembly language page;Assembly language;2.40;+1.46
+10;11;change;SQL page;SQL;1.53;+0.13
+11;20;change;Classic Visual Basic page;Classic Visual Basic;1.39;+0.73
+12;8;change;R page;R;1.32;-1.08
+13;12;change;Go page;Go;1.17;-0.04
+14;50;change;Fortran page;Fortran;1.12;+0.90
+15;24;change;Groovy page;Groovy;1.09;+0.51
+16;10;change;Swift page;Swift;1.07;-0.37
+17;16;change;Ruby page;Ruby;0.95;+0.14
+18;14;change;Perl page;Perl;0.90;+0.03
+19;15;change;MATLAB page;MATLAB;0.88;+0.05
+20;30;change;Delphi/Object Pascal page;Delphi/Object Pascal;0.85;+0.36

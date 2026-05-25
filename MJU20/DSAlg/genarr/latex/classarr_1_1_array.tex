@@ -1,0 +1,177 @@
+\hypertarget{classarr_1_1_array}{}\doxysection{arr.\+Array\texorpdfstring{$<$}{<} T \texorpdfstring{$>$}{>} Class Template Reference}
+\label{classarr_1_1_array}\index{arr.Array$<$ T $>$@{arr.Array$<$ T $>$}}
+
+
+Generic array datatype  
+
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classarr_1_1_array_a8882ac7ef0eb736601a8a80885f52e43}{Array}} (int size)
+\begin{DoxyCompactList}\small\item\em Constructor that allocates an array of elements with the \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classarr_1_1_array_af237565a9fea104b79757a887425246b}{Array}} (T\mbox{[}$\,$\mbox{]} raw)
+\begin{DoxyCompactList}\small\item\em Constructor that takes a copy of an array datastruct \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classarr_1_1_array_ae4f46351113f445c1085e8f7fe0ea8c6}{Length}} ()
+\begin{DoxyCompactList}\small\item\em Get the length of the \mbox{\hyperlink{classarr_1_1_array}{Array}} \end{DoxyCompactList}\item 
+T \mbox{\hyperlink{classarr_1_1_array_abf2c7edc559372beb5632120df740888}{Get}} (int ix)
+\begin{DoxyCompactList}\small\item\em Access element at certain index \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classarr_1_1_array_aa4899a1dee45aa34c1b278c859da07a7}{Set}} (int ix, T val)
+\begin{DoxyCompactList}\small\item\em Change element at a certain index to a new value \end{DoxyCompactList}\item 
+override string \mbox{\hyperlink{classarr_1_1_array_ad58cff54801f7debba0ef15f5118e70f}{To\+String}} ()
+\begin{DoxyCompactList}\small\item\em Constructs a string of the array {\itshape (Object.\+To\+String override)} \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+T \mbox{\hyperlink{classarr_1_1_array_acb86b5392d75b3cc767df1b720775c47}{this\mbox{[}int ix\mbox{]}}}\hspace{0.3cm}{\ttfamily  \mbox{[}getset\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Indexed access of individual element \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Generic array datatype 
+
+
+\begin{DoxyTemplParams}{Template Parameters}
+{\em T} & specific type\\
+\hline
+\end{DoxyTemplParams}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classarr_1_1_array_a8882ac7ef0eb736601a8a80885f52e43}\label{classarr_1_1_array_a8882ac7ef0eb736601a8a80885f52e43}} 
+\index{arr.Array$<$ T $>$@{arr.Array$<$ T $>$}!Array@{Array}}
+\index{Array@{Array}!arr.Array$<$ T $>$@{arr.Array$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{Array()}{Array()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classarr_1_1_array}{arr.\+Array}}$<$ T $>$.\mbox{\hyperlink{classarr_1_1_array}{Array}} (\begin{DoxyParamCaption}\item[{int}]{size }\end{DoxyParamCaption})}
+
+
+
+Constructor that allocates an array of elements with the 
+
+
+\begin{DoxyParams}{Parameters}
+{\em size} & desired size\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Argument\+Out\+Of\+Range\+Exception} & if size ≤ 0\\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classarr_1_1_array_af237565a9fea104b79757a887425246b}\label{classarr_1_1_array_af237565a9fea104b79757a887425246b}} 
+\index{arr.Array$<$ T $>$@{arr.Array$<$ T $>$}!Array@{Array}}
+\index{Array@{Array}!arr.Array$<$ T $>$@{arr.Array$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{Array()}{Array()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classarr_1_1_array}{arr.\+Array}}$<$ T $>$.\mbox{\hyperlink{classarr_1_1_array}{Array}} (\begin{DoxyParamCaption}\item[{T\mbox{[}$\,$\mbox{]}}]{raw }\end{DoxyParamCaption})}
+
+
+
+Constructor that takes a copy of an array datastruct 
+
+
+\begin{DoxyParams}{Parameters}
+{\em raw} & datastruct to copy\\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classarr_1_1_array_abf2c7edc559372beb5632120df740888}\label{classarr_1_1_array_abf2c7edc559372beb5632120df740888}} 
+\index{arr.Array$<$ T $>$@{arr.Array$<$ T $>$}!Get@{Get}}
+\index{Get@{Get}!arr.Array$<$ T $>$@{arr.Array$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{Get()}{Get()}}
+{\footnotesize\ttfamily T \mbox{\hyperlink{classarr_1_1_array}{arr.\+Array}}$<$ T $>$.Get (\begin{DoxyParamCaption}\item[{int}]{ix }\end{DoxyParamCaption})}
+
+
+
+Access element at certain index 
+
+
+\begin{DoxyParams}{Parameters}
+{\em ix} & the index\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the element at a certain index in the array
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Index\+Out\+Of\+Range\+Exception} & if index \texorpdfstring{$<$}{<} 0 or \mbox{\hyperlink{classarr_1_1_array_ae4f46351113f445c1085e8f7fe0ea8c6}{Length()}} ≤ index\\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classarr_1_1_array_ae4f46351113f445c1085e8f7fe0ea8c6}\label{classarr_1_1_array_ae4f46351113f445c1085e8f7fe0ea8c6}} 
+\index{arr.Array$<$ T $>$@{arr.Array$<$ T $>$}!Length@{Length}}
+\index{Length@{Length}!arr.Array$<$ T $>$@{arr.Array$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{Length()}{Length()}}
+{\footnotesize\ttfamily int \mbox{\hyperlink{classarr_1_1_array}{arr.\+Array}}$<$ T $>$.Length (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Get the length of the \mbox{\hyperlink{classarr_1_1_array}{Array}} 
+
+\begin{DoxyReturn}{Returns}
+the length
+\end{DoxyReturn}
+\mbox{\Hypertarget{classarr_1_1_array_aa4899a1dee45aa34c1b278c859da07a7}\label{classarr_1_1_array_aa4899a1dee45aa34c1b278c859da07a7}} 
+\index{arr.Array$<$ T $>$@{arr.Array$<$ T $>$}!Set@{Set}}
+\index{Set@{Set}!arr.Array$<$ T $>$@{arr.Array$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{Set()}{Set()}}
+{\footnotesize\ttfamily void \mbox{\hyperlink{classarr_1_1_array}{arr.\+Array}}$<$ T $>$.Set (\begin{DoxyParamCaption}\item[{int}]{ix,  }\item[{T}]{val }\end{DoxyParamCaption})}
+
+
+
+Change element at a certain index to a new value 
+
+
+\begin{DoxyParams}{Parameters}
+{\em ix} & the index\\
+\hline
+{\em val} & the new value\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Index\+Out\+Of\+Range\+Exception} & if index \texorpdfstring{$<$}{<} 0 or \mbox{\hyperlink{classarr_1_1_array_ae4f46351113f445c1085e8f7fe0ea8c6}{Length()}} ≤ index\\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classarr_1_1_array_ad58cff54801f7debba0ef15f5118e70f}\label{classarr_1_1_array_ad58cff54801f7debba0ef15f5118e70f}} 
+\index{arr.Array$<$ T $>$@{arr.Array$<$ T $>$}!ToString@{ToString}}
+\index{ToString@{ToString}!arr.Array$<$ T $>$@{arr.Array$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{ToString()}{ToString()}}
+{\footnotesize\ttfamily override string \mbox{\hyperlink{classarr_1_1_array}{arr.\+Array}}$<$ T $>$.To\+String (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Constructs a string of the array {\itshape (Object.\+To\+String override)} 
+
+\begin{DoxyReturn}{Returns}
+Returns the string
+\end{DoxyReturn}
+
+
+\doxysubsection{Property Documentation}
+\mbox{\Hypertarget{classarr_1_1_array_acb86b5392d75b3cc767df1b720775c47}\label{classarr_1_1_array_acb86b5392d75b3cc767df1b720775c47}} 
+\index{arr.Array$<$ T $>$@{arr.Array$<$ T $>$}!this\mbox{[}int ix\mbox{]}@{this[int ix]}}
+\index{this\mbox{[}int ix\mbox{]}@{this[int ix]}!arr.Array$<$ T $>$@{arr.Array$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{this[int ix]}{this[int ix]}}
+{\footnotesize\ttfamily T \mbox{\hyperlink{classarr_1_1_array}{arr.\+Array}}$<$ T $>$.this\mbox{[}int ix\mbox{]}\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Indexed access of individual element 
+
+
+\begin{DoxyParams}{Parameters}
+{\em ix} & the index\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+get\+: returns the value at the index
+
+set\+: return nothing
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+arr.\+cs\end{DoxyCompactItemize}

@@ -1,0 +1,15 @@
+NAMN:        Kolla dagens lektion
+Aktörer:     elev, lärare
+Mål:         öppna slideshow/övningar för dagen
+Förvillkor:  inloggad på Moodle, slack öppnat, 
+             läraren lagt upp länk på slack (zoom öppnat)
+Trigger:     klockan är 8:59 på vardag ej fredag
+Grundflöde:
+    1. eleven klickar på länk "Veckosida" på slack
+    2. eleven loggar in (se use case "logga in") 
+    3. eleven scrollar ner till dagens datum
+    4. på länken "slideshow" högerklickar eleven
+    5. eleven väljer i menyn "open in new tab"
+    6. på länken "dagens övningr" högerklickar eleven
+    5. eleven väljer i menyn "open in new tab"
+Kommentarer: 

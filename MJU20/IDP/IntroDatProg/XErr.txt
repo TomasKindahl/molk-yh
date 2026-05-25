@@ -1,0 +1,34 @@
+Extra-uppgifter på felhantering:
+
+  Moment 1, övningar:
+
+     XErr1: Moment 1, övningar, Övning 1:3: lägg till felhantering
+       vid inmatning, så att felaktiga inmatningar ger repeterade
+       frågor, t.ex.:
+         Ange cirkelns diameter: 12x5
+         Felaktig inmatning!
+         Ange cirkelns diameter: 12.5
+         Felaktig inmatning!
+         Ange cirkelns diameter: 12,5
+         
+         En cirkel med diametern 10,5 har:
+
+     XErr2: Moment 1, övningar, Övning 1:4: lägg till felhantering
+       vid inmatning.
+
+     XErr3: Gör ett program som begär ett klockslag och avgör om det
+       är på formatet HH, HH:MM eller HH:MM:DD. Använd string.Split!
+       delarna skall vara strängar som är två tecken långa, och
+       de skall gå att konvertera till siffror. Varianter:
+          12:34:56  - godkänt
+          12:12     - godkänt
+          124:12    - FEL!
+          uauau     - FEL!
+          19        - godkänt
+          24:21:19  - godkänt
+          42:99     - godkänt
+
+     XErr4: utvidga XErr3 så att den bara accepterar klockslag där
+       timmen är 00-23
+       minuten är 00-59
+       sekunden är 00-59

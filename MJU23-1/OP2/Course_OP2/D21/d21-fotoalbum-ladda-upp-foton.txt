@@ -1,0 +1,13 @@
+NAMN:        Ladda upp foton
+Aktörer:     användare
+Mål:         lägg in fotobildfiler med EXIM-data i programmet
+Förvillkor:  fotobildfilerna har EXIM-data, de ligger på datorn
+Trigger:     användaren trycker på ladda-upp-knappen
+Grundflöde:
+    1. programmet öppnar uppladdningsmeny (filselektor-dialog)
+    2. användaren surfar till rätt katalog
+    3. användaren markerar alla filer som ska laddas upp
+    4. användaren trycker på Open i dialogen
+    5. programmet laddar upp filerna
+    6. programmet lägger filerna i mappen "osorterade bilder"
+Kommentarer: 

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31911.196
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Starmap_0", "Starmap_0.csproj", "{5156B545-B914-475E-9B40-3BCE1E4BB738}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5156B545-B914-475E-9B40-3BCE1E4BB738}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5156B545-B914-475E-9B40-3BCE1E4BB738}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5156B545-B914-475E-9B40-3BCE1E4BB738}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5156B545-B914-475E-9B40-3BCE1E4BB738}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6241CC05-2BC4-47C5-80E1-E59DFAC6C77C}
+	EndGlobalSection
+EndGlobal

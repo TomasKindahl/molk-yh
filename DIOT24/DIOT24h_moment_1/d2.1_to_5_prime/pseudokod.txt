@@ -1,0 +1,7 @@
+är N ett primtal?
+   om N är mindre än 2 är det inte ett primtal!
+   om N är 2 är det ett primtal!
+   om N är jämnt delbart med 2 är det INTE ett primtal!
+   gå igenom talen I = 3, 5, 7, 9 o.s.v. upp till men inte inklusive N
+       om N är jämnt delbart med I är det INTE ett primtal
+   annars är N ett primtal

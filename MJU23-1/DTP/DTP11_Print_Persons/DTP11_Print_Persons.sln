@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33424.131
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DTP11_Print_Persons", "DTP11_Print_Persons.csproj", "{C40609BD-9607-497B-AD99-641818E50DA0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C40609BD-9607-497B-AD99-641818E50DA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C40609BD-9607-497B-AD99-641818E50DA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C40609BD-9607-497B-AD99-641818E50DA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C40609BD-9607-497B-AD99-641818E50DA0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {57C6424D-6DBD-4D5B-B53B-65930EE5BE68}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.0.0">
+  <help_text/>
+  <zoom_level>20</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>60</x>
+      <y>320</y>
+      <w>560</w>
+      <h>520</h>
+    </coordinates>
+    <panel_attributes>Servitör
+--
++namn
++bord : Bord[]
++nota : Beställning
+--
+--
+Responsibilities
+-- Ansvarar för bord och
+   gäster vid bordet, samt
+   deras beställningar</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>900</x>
+      <y>180</y>
+      <w>600</w>
+      <h>520</h>
+    </coordinates>
+    <panel_attributes>Nota
+--
++ID
++bord : Bord
++antalGäster : int
++betald : bool
++förtäring : Förtäring
+--
+--
+Responsibilities
+-- Samma som beställning
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1620</x>
+      <y>780</y>
+      <w>400</w>
+      <h>240</h>
+    </coordinates>
+    <panel_attributes>Maträtt
+--
++namn
+--
+--
+Responsibilities
+-- Vara smaklig</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1840</x>
+      <y>120</y>
+      <w>640</w>
+      <h>520</h>
+    </coordinates>
+    <panel_attributes>Förtäring
+--
++namn
++typ : enum { mat, dryck }
++pris : valutaenhet
+--
+--
+Responsibilities
+-- Vara smaklig</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>2200</x>
+      <y>780</y>
+      <w>400</w>
+      <h>240</h>
+    </coordinates>
+    <panel_attributes>Dryck
+--
++namn
+--
+--
+Responsibilities
+-- Vara smaklig</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1780</x>
+      <y>620</y>
+      <w>460</w>
+      <h>200</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>210.0;10.0;210.0;40.0;10.0;40.0;10.0;80.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>2180</x>
+      <y>620</y>
+      <w>200</w>
+      <h>200</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;40.0;80.0;40.0;80.0;80.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1480</x>
+      <y>220</y>
+      <w>400</w>
+      <h>260</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;110.0;180.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>900</x>
+      <y>1120</y>
+      <w>560</w>
+      <h>340</h>
+    </coordinates>
+    <panel_attributes>Bord
+--
++ledigt : bool
++antalPersoner : int
+--
+--</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>600</x>
+      <y>600</y>
+      <w>540</w>
+      <h>560</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1
+m2=1..n
+ansvarar för &gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;210.0;260.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>600</x>
+      <y>300</y>
+      <w>340</w>
+      <h>260</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1
+m2=0..n
+ansvarar för &gt;</panel_attributes>
+    <additional_attributes>10.0;100.0;150.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>600</x>
+      <y>480</y>
+      <w>1280</w>
+      <h>360</h>
+    </coordinates>
+    <panel_attributes>lt=-
+m1=1
+m2=1..n
+serverar &gt;</panel_attributes>
+    <additional_attributes>10.0;40.0;160.0;160.0;470.0;160.0;620.0;10.0</additional_attributes>
+  </element>
+</diagram>

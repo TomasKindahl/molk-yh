@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="d15mauiraknedosa.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="10">
+            <Label
+                x:Name="ResultText"
+                Text="0"
+                Style="{StaticResource SubHeadline}"
+                SemanticProperties.HeadingLevel="Level2"
+                SemanticProperties.Description="Resultatet av beräkningen" />
+            <Entry
+                x:Name="TextEntry"
+                Completed="OnEntryCompleted"
+            />
+            <HorizontalStackLayout Spacing="10" HorizontalOptions="Center">
+                <Button x:Name="PrevBtn"
+                        Text="="
+                        WidthRequest="120"
+                        BackgroundColor="Black"
+                        TextColor="White"
+                        Clicked="OnEntryCompleted"
+                        HorizontalOptions="Fill"/>
+                <Button x:Name="NextBtn"
+                        Text="←"
+                        Clicked="OnDeleteClicked"
+                        WidthRequest="55"
+                        HorizontalOptions="Fill" />
+                <Button x:Name="ClearButton"
+                        Text="CA"
+                        Clicked="OnClearClicked"
+                        WidthRequest="55"
+                        HorizontalOptions="Fill" />
+            </HorizontalStackLayout>
+            <HorizontalStackLayout Spacing="10" HorizontalOptions="Center">
+                <Button x:Name="MinusBtn"
+                        Text="-"
+                        Clicked="OnNumClicked"
+                        BackgroundColor="Black"
+                        TextColor="White"
+                        WidthRequest="55"
+                        HorizontalOptions="Fill"/>
+                <Button x:Name="Num7Btn"
+                        Text="7"
+                        Clicked="OnNumClicked"
+                        WidthRequest="55"
+                        HorizontalOptions="Fill" />
+                <Button x:Name="Num8Btn"
+                        Text="8"
+                        Clicked="OnNumClicked"
+                        WidthRequest="55"
+                        HorizontalOptions="Fill" />
+                <Button x:Name="Num9Btn"
+                        Text="9"
+                        Clicked="OnNumClicked"
+                        WidthRequest="55"
+                        HorizontalOptions="Fill" />
+            </HorizontalStackLayout>
+            <HorizontalStackLayout Spacing="10" HorizontalOptions="Center">
+                <Button x:Name="PlusBtn"
+                        Text="+"
+                        Clicked="OnNumClicked"
+                        BackgroundColor="Black"
+                        TextColor="White"
+                        WidthRequest="55"
+                        HorizontalOptions="Fill"/>
+                <Button x:Name="Num4Btn"
+                        Text="4"
+                        Clicked="OnNumClicked"
+                        WidthRequest="55"
+                        HorizontalOptions="Fill" />
+                <Button x:Name="Num5Btn"
+                        Text="5"
+                        Clicked="OnNumClicked"
+                        WidthRequest="55"
+                        HorizontalOptions="Fill" />
+                <Button x:Name="Num6Btn"
+                        Text="6"
+                        Clicked="OnNumClicked"
+                        WidthRequest="55"
+                        HorizontalOptions="Fill" />
+            </HorizontalStackLayout>
+            <HorizontalStackLayout Spacing="10" HorizontalOptions="Center">
+                <Button x:Name="TimesBtn"
+                        Text="*"
+                        Clicked="OnNumClicked"
+                        BackgroundColor="Black"
+                        TextColor="White"
+                        WidthRequest="55"
+                        HorizontalOptions="Fill"/>
+                <Button x:Name="Num1Btn"
+                        Text="1"
+                        Clicked="OnNumClicked"
+                        WidthRequest="55"
+                        HorizontalOptions="Fill" />
+                <Button x:Name="Num2Btn"
+                        Text="2"
+                        Clicked="OnNumClicked"
+                        WidthRequest="55"
+                        HorizontalOptions="Fill" />
+                <Button x:Name="Num3Btn"
+                        Text="3"
+                        Clicked="OnNumClicked"
+                        WidthRequest="55"
+                        HorizontalOptions="Fill" />
+            </HorizontalStackLayout>
+            <HorizontalStackLayout Spacing="10" HorizontalOptions="Center">
+                <Button x:Name="DivBtn"
+                        Text="/"
+                        Clicked="OnNumClicked"
+                        BackgroundColor="Black"
+                        TextColor="White"
+                        WidthRequest="55"
+                        HorizontalOptions="Fill"/>
+                <Button x:Name="Num0Btn"
+                        Text="0"
+                        Clicked="OnNumClicked"
+                        WidthRequest="55"
+                        HorizontalOptions="Fill" />
+                <Button x:Name="CommaBtn"
+                        Text=","
+                        Clicked="OnNumClicked"
+                        WidthRequest="55"
+                        HorizontalOptions="Fill" />
+                <Button x:Name="ChsBtn"
+                        Text="+/-"
+                        WidthRequest="55"
+                        HorizontalOptions="Fill" />
+            </HorizontalStackLayout>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

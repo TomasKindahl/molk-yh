@@ -1,0 +1,22 @@
+<Window x:Class="d13WPFTextEdit.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:d13WPFTextEdit"
+        mc:Ignorable="d"
+        Title="TextEdit" Height="300" Width="400">
+    <Grid>
+        <Menu Margin="0,0,0,0" Height="20" VerticalAlignment="Top">
+            <MenuItem Header="_File">
+                <MenuItem Header="_New" Click="MenuNewClick"/>
+                <MenuItem Header="_Open"  Click="MenuOpenClick"/>
+                <MenuItem Header="_Save" Click="MenuSaveClick"/>
+                <MenuItem Header="E_xit" Click="MenuExitClick"/>
+            </MenuItem>
+        </Menu>
+        <TextBox x:Name="EditArea" HorizontalAlignment="Stretch" Margin="0,20,0,20" TextWrapping="Wrap" Text="Abrakadabra" VerticalAlignment="Stretch" AcceptsReturn="True" FontFamily="Global Monospace"/>
+        <TextBlock x:Name="StatusField" HorizontalAlignment="Stretch" TextWrapping="Wrap" Height="20" Text="File: (none)" VerticalAlignment="Bottom"/>
+
+    </Grid>
+</Window>

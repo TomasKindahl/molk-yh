@@ -1,0 +1,14 @@
+NAMN:        Designa karaktär
+Aktörer:     spelare (karaktär), spel
+Mål:         karaktären redo för spelbana
+Förvillkor:  loggat in på spelet, huvudmenyn
+Trigger:     spelare trycker på menyval designa karaktär
+Grundflöde:
+    1. spelare ange namn
+    2. spelare anger ras
+    3. spelare anger kö och längd, och bredd
+    3. spelare designar utseende, hårfärg, klädsel
+    4. spelare anger karaktärsklass (cleric, ranger, warrior, wizard)
+    5. spelare slumpar styrka, karisma, flinkhet, intelligens, mana
+    6. spelare trycker OK
+Kommentarer: 

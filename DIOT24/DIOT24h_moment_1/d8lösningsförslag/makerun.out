@@ -1,0 +1,18 @@
+$ make run
+gcc -o iacc.o -c iacc.c -I../include
+gcc -o iarr_to_str.o -c iarr_to_str.c -I../include
+gcc -o iscan.o -c iscan.c -I../include
+ar rcs ../lib/libiarrop.a iacc.o iarr_to_str.o iscan.o
+gcc -o ../bin/iarr main.c -I../include ../lib/libiarrop.a
+./../bin/iarr
+array: [2, 3, 5, 7, 11, 13, 15]
+  sum: 56
+  accum sum: [2, 5, 10, 17, 28, 41, 56]
+  prod: 450450
+  accum prod: [2, 6, 30, 210, 2310, 30030, 450450]
+array: [1, 3, 5, 7, 9, 11, 13]
+  sum: 49
+  accum sum: [1, 4, 9, 16, 25, 36, 49]
+  prod: 135135
+  accum prod: [1, 3, 15, 105, 945, 10395, 135135]
+

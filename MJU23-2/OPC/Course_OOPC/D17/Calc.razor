@@ -1,0 +1,241 @@
+@page "/calc"
+@rendermode InteractiveServer
+
+<h3>Calculator</h3>
+
+<table>
+    <tr>
+		<td style="height: 2em" colspan="4">@value</td>
+    </tr>
+    <tr>
+		<td style="height: 2em" colspan="4">@str</td>
+    </tr>
+    <tr>
+		<td colspan="2"><button style="width: 6.2em; background: black;" class="btn btn-primary" @onclick="Enter">=</button></td>
+		<td><button style="width: 3em; background: #440000;" class="btn btn-primary" @onclick="BckSpc">&#x2190;</button></td>
+		<td><button style="width: 3em; background: #880000;" class="btn btn-primary" @onclick="Clear">CA</button></td>
+    </tr>
+    <tr>
+		<td width="30"><button style="width: 3em; background: black;" class="btn btn-primary" @onclick="Minus">-</button></td>
+		<td width="30"><button style="width: 3em" class="btn btn-primary" @onclick="B7">7</button></td>
+		<td width="30"><button style="width: 3em" class="btn btn-primary" @onclick="B8">8</button></td>
+		<td width="30"><button style="width: 3em" class="btn btn-primary" @onclick="B9">9</button></td>
+    </tr>
+    <tr>
+		<td width="30"><button style="width: 3em; background: black;" class="btn btn-primary" @onclick="Plus">+</button></td>
+		<td width="30"><button style="width: 3em" class="btn btn-primary" @onclick="B4">4</button></td>
+		<td width="30"><button style="width: 3em" class="btn btn-primary" @onclick="B5">5</button></td>
+		<td width="30"><button style="width: 3em" class="btn btn-primary" @onclick="B6">6</button></td>
+	</tr>
+    <tr>
+		<td width="30"><button style="width: 3em; background: black;" class="btn btn-primary" @onclick="Times">*</button></td>
+		<td width="30"><button style="width: 3em" class="btn btn-primary" @onclick="B1">1</button></td>
+		<td width="30"><button style="width: 3em" class="btn btn-primary" @onclick="B2">2</button></td>
+		<td width="30"><button style="width: 3em" class="btn btn-primary" @onclick="B3">3</button></td>
+    </tr>
+    <tr>
+		<td width="30"><button style="width: 3em; background: black;" class="btn btn-primary" @onclick="Div">/</button></td>
+		<td width="30"><button style="width: 3em" class="btn btn-primary" @onclick="B0">0</button></td>
+		<td width="30"><button style="width: 3em" class="btn btn-primary" @onclick="Comma">,</button></td>
+		<td width="30"><button style="width: 3em" class="btn btn-primary" @onclick="B3">+/-</button></td>
+	</tr>
+</table>
+
+@code {
+    private double value = 0;
+    string str = "";
+
+    private void Enter()
+    {
+        if (str != "")
+			value = ShuntingYard.Execute(str); // Byt ut mot ShuntingYard.Execute!!
+    }
+    private void BckSpc()
+    {
+        if (str != "")
+            str = str.Substring(0, str.Length - 1);
+    }
+    private void Clear()
+    {
+        str = "";
+        value = 0;
+    }
+    private void Minus() => str += "-";
+	private void Plus() => str += "+";
+	private void Times() => str += "*";
+	private void Div() => str += "/";
+	private void Comma() => str += ",";
+
+	private void B0() => str += "0";
+	private void B1() => str += "1";
+	private void B2() => str += "2";
+	private void B3() => str += "3";
+	private void B4() => str += "4";
+	private void B5() => str += "5";
+	private void B6() => str += "6";
+	private void B7() => str += "7";
+	private void B8() => str += "8";
+	private void B9() => str += "9";
+
+	class ShuntingYard
+	{
+		enum TokTyp { IDF, EQ, NUM, LPAR, RPAR, OP, NONE, ERROR }
+		class Token
+		{
+			public TokTyp type = TokTyp.NONE;
+			public string val;
+			public Token(TokTyp type, string val)
+			{
+				this.type = type; this.val = val;
+			}
+			public override string ToString()
+			{
+				return $"[{type}]{val}";
+			}
+		}
+		static int precedence(string op)
+		{
+			if (op == "+" || op == "-") return 1;
+			else if (op == "*" || op == "/") return 2;
+			else return -1;
+		}
+		static bool GetNextTokTyp(out Token tok, ref string rest)
+		{
+			char[] Ops = { '+', '-', '*', '/' };
+
+			tok = new Token(TokTyp.NONE, "");
+			while (rest.Length > 0 && rest[0] == ' ') rest = rest.Substring(1);
+			if (rest.Length == 0)
+			{
+				return false;
+			}
+			if (Char.IsLetter(rest[0]))
+			{
+				do
+				{
+					tok.val += rest[0];
+					rest = rest.Substring(1);
+				} while (rest.Length > 0 && (Char.IsLetter(rest[0]) || Char.IsDigit(rest[0])));
+				tok.type = TokTyp.IDF;
+			}
+			else if (Char.IsDigit(rest[0]))
+			{
+				do
+				{
+					tok.val += rest[0];
+					rest = rest.Substring(1);
+				} while (rest.Length > 0 && (Char.IsDigit(rest[0]) || rest[0] == ','));
+				tok.type = TokTyp.NUM;
+			}
+			else if (rest[0] == '=')
+			{
+				tok.val += rest[0];
+				rest = rest.Substring(1);
+				tok.type = TokTyp.EQ;
+			}
+			else if (rest[0] == '(')
+			{
+				tok.val += rest[0];
+				rest = rest.Substring(1);
+				tok.type = TokTyp.LPAR;
+			}
+			else if (rest[0] == ')')
+			{
+				tok.val += rest[0];
+				rest = rest.Substring(1);
+				tok.type = TokTyp.RPAR;
+			}
+			else if (Ops.Contains(rest[0]))
+			{
+				tok.val += rest[0];
+				rest = rest.Substring(1);
+				tok.type = TokTyp.OP;
+			}
+			else
+			{
+				tok.type = TokTyp.ERROR;
+				return false;
+			}
+			return true;
+		}
+		public static double Execute(string expression)
+		{
+			List<Token> otq = new List<Token>();
+			Stack<Token> ops = new Stack<Token>();
+			Token tok, top;
+			while (GetNextTokTyp(out tok, ref expression))
+			{
+				// Console.Write($"[{tok.type}]{tok.val} ");
+				// Shunting yard here:
+				switch (tok.type)
+				{
+					case TokTyp.NUM:
+						otq.Add(tok);
+						break;
+					case TokTyp.OP:
+						if (ops.Count > 0)
+						{
+							top = ops.Peek();
+							while (ops.Count > 0 &&
+										(top.type == TokTyp.OP &&
+											precedence(top.val) >= precedence(tok.val)))
+							{
+								otq.Add(ops.Pop());
+								if (ops.Count == 0) break;
+								top = ops.Peek();
+							}
+						}
+						ops.Push(tok);
+						break;
+					case TokTyp.LPAR:
+						ops.Push(tok);
+						break;
+					case TokTyp.RPAR:
+						top = ops.Peek();
+						while (ops.Count > 0 && top.type != TokTyp.LPAR)
+						{
+							otq.Add(ops.Pop());
+							top = ops.Peek();
+						}
+						// Here assert that ops has a LPAR at the top, and drop that
+						break;
+				}
+			}
+			while (ops.Count > 0)
+				if (ops.Peek().type != TokTyp.LPAR)
+					otq.Add(ops.Pop());
+				else
+					ops.Pop();
+			// Console.WriteLine();
+
+			Stack<double> cst = new Stack<double>();
+			foreach (Token t in otq)
+			{
+				// Console.WriteLine(t);
+				if (t.type == TokTyp.NUM)
+					cst.Push(double.Parse(t.val));
+				else if (t.type == TokTyp.OP)
+				{
+					double x, y, res;
+					y = cst.Pop(); x = cst.Pop();
+					switch (t.val)
+					{
+						case "+":
+							cst.Push(x + y);
+							break;
+						case "-":
+							cst.Push(x - y);
+							break;
+						case "*":
+							cst.Push(x * y);
+							break;
+						case "/":
+							cst.Push(x / y);
+							break;
+					}
+				}
+			}
+			return cst.Pop();
+		}
+	}
+}

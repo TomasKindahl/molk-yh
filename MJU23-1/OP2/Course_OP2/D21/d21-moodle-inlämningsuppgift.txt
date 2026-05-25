@@ -1,0 +1,25 @@
+NAMN:        Inlämningsuppgift
+Aktörer:     elev, lärare
+Mål:         eleven får godkänt på inlämningen
+Förvillkor:  inloggad på Moodle vid översikt
+Trigger:     –
+Grundflöde:
+    1. elev går till kurs
+    2. elev scrollar ner till rubrik "Tenta, inlämning, förstudie, projekt"
+    3. elev expanderar rubriken
+    4. elev klickar in på rätt inlämningsuppgiftssida
+    5. elev klickar på instruktions-PDF och läser den
+    6. elev producerar nödvändiga filer med rätt verktyg
+    För alla filer som krävs:
+        7. elev klickar på ikonen lägg till fil
+        8. i "Filväljare" elev klickar på "ladda upp fil"
+        9. elev klickar på "Browse..." och första filen
+       10. elev trycker på "Ladda upp den här filen"
+    11. elev trycker på knappen "Spara"
+    12. elev frågar lärare om uppladdningen gått bra
+    13. läraren går till rätt kurs och inlämning
+    14. läraren klickar på "Visa alla inlämningar"
+    15. läraren scrollar ner till relevant elev
+    16. läraren meddelar eleven om det gått bra
+Kommentarer: fel på moodles hantering av cachen kräver att
+   läraren verifierar: 13-16.

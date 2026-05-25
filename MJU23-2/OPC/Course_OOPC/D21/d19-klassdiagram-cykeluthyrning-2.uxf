@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.0.0">
+  <zoom_level>11</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>132</x>
+      <y>671</y>
+      <w>418</w>
+      <h>242</h>
+    </coordinates>
+    <panel_attributes>Person
+--
+−name : string
+−person number : string
+−phone : string
+--
++Print()
+--
+Responsibilities
+-- Inte kvadda cykeln
+-- Lämna tillbaka den i tid</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>693</x>
+      <y>594</y>
+      <w>517</w>
+      <h>396</h>
+    </coordinates>
+    <panel_attributes>Bicycle
+--
++&lt;&lt;property&gt;&gt; id : int
+−wheelSize : int
+−type : Type
++&lt;&lt;property&gt;&gt; status : Status
+−rentalDate : string
+−renter : Person
+--
++Print()
++PrintRent()
++RegisterBicycle ( person : Person,
+                               date : string ) : bool
+--
+Responsibilities
+-- Vara trafiksäker (bromsar, kedja, 
+   styre, sits)
+-- Vara pumpad, smörjd</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1430</x>
+      <y>561</y>
+      <w>220</w>
+      <h>154</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;enumeration&gt;&gt;
+Type
+--
+Child
+Female
+Male</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1199</x>
+      <y>616</y>
+      <w>253</w>
+      <h>66</h>
+    </coordinates>
+    <panel_attributes>lt=-
+</panel_attributes>
+    <additional_attributes>10.0;40.0;210.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1430</x>
+      <y>737</y>
+      <w>220</w>
+      <h>176</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;enumeration&gt;&gt;
+Status
+--
+Service
+Available
+RentedOut
+Missing</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1199</x>
+      <y>660</y>
+      <w>253</w>
+      <h>176</h>
+    </coordinates>
+    <panel_attributes>lt=-
+</panel_attributes>
+    <additional_attributes>10.0;10.0;210.0;140.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>539</x>
+      <y>693</y>
+      <w>176</w>
+      <h>77</h>
+    </coordinates>
+    <panel_attributes>lt=-
+</panel_attributes>
+    <additional_attributes>10.0;50.0;140.0;10.0</additional_attributes>
+  </element>
+</diagram>

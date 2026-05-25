@@ -1,0 +1,31 @@
+avsikt              (★) 
+behov               (★)
+betala              - betalning (int!)
+bibliotekarie       ★
+bok                 ★
+bokdatabas          ★
+bokhylla            ★
+boklånare           ★
+databas             ★
+författare          (★) sträng?
+hylla               ★
+knapp               (★) hårdvarusignal?
+kort                ★
+kvitto              ★
+låneautomat         ★
+lånekort            ★
+SEK                 (★)
+SMS:ar              (★) 
+signalera           (★) skicka signal
+skuld               ★ int??
+terminal            ★
+titel               (★) sträng!
+återlämningsautomat ★
+ämne                ★
+ämneshylla          ★ (kombination av ämne och hylla?)
+
+SAKNAS: 
+   LÅN             (★) status i bok plus länk mellan
+                       bok och boklånare?
+   AUTOMAT          ★ superklass för låneautomat
+                      och återlämningsautomat?

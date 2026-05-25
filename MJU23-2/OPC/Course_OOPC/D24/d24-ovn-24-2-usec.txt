@@ -1,0 +1,38 @@
+24.3.3 - sekvens
+
+NAMN:       Betala för maten
+Aktörer:    kassör, gäster
+Mål:        kassören får betalt för maten
+Förvillkor: gästen har ätit
+Trigger:    gäster ber att få notan
+Grundflöde: 
+  * kassören frågar:
+  * ALT 1: vill alla betala tillsammans
+  *   kassören producerar notan
+  *   gästerna betalar
+  * ALT 2: eller vill alla betala var för sig
+  *   kassören producerar notor
+  *   gästerna betalar varje nota
+  * kassören tar pengarna och tackar
+--------------------------------------------------------
+24.3.4 - aktivitet
+
+NAMN:       Beställ mat
+Aktörer:    servitör, gäster, kock
+Mål:        en beställning har gått till kocken
+Förvillkor: gäster sitter vid ett bord, har fått menyn
+Trigger:    gästerna ber servitören att få beställa
+Grundflöde: 
+  * servitören frågar "har alla bestämt sig?"
+  * gäster svarar "ja!"
+  * FÖR ALLA gäster:
+  *   servitör frågar om maträtt
+  *   gäst anger maträtt
+  *   servitör noterar på notblocket
+  *   servitör frågar "något att dricka"
+  *   gäst anger dryck (t.ex. vin)
+  *   servitör upprepar mat dryck
+  *   gäst godkänner
+  * NÄSTA
+  * servitör bugar
+  * servitör går till kök och meddelar rätt till kocken

@@ -1,0 +1,17 @@
+﻿@page "/save"
+
+<h3>Spara på fil</h3>
+
+<div>
+    <input @bind="inputString" />
+    <button @onclick="SaveToFile">Submit</button>
+</div>
+
+@code {
+    private string inputString;
+    private async Task SaveToFile()
+    {
+        File.WriteAllText("wwwroot/userInput.txt", inputString);
+        Console.WriteLine($"String '{inputString}' saved to file.");
+    }
+}

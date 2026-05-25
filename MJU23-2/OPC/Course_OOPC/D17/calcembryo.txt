@@ -1,0 +1,64 @@
+@page "/calc"
+
+<h3>Calculator</h3>
+
+<table>
+    <tr>
+        <td colspan="4">@value</td>
+    </tr>
+    <tr>
+        <td colspan="4">@str</td>
+    </tr>
+    <tr>
+        <td><button class="btn btn-primary" @onclick="Enter">=</button></td>
+        <td><button class="btn btn-primary" @onclick="BckSpc">&#x2190;</button></td>
+        <td><button class="btn btn-primary" @onclick="Clear">CA</button></td>
+    </tr>
+    <tr>
+        <td width="30"><button class="btn btn-primary" @onclick="Minus">-</button></td>
+        <td width="30"><button class="btn btn-primary" @onclick="B7">7</button></td>
+        <td width="30">8</td>
+        <td width="30">9</td>
+    </tr>
+    <tr>
+        <td>+</td>
+        <td>4</td>
+        <td>5</td>
+        <td>6</td>
+    </tr>
+    <tr>
+        <td>*</td>
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+    </tr>
+    <tr>
+        <td>/</td>
+        <td>0</td>
+        <td>,</td>
+        <td>+/-</td>
+    </tr>
+</table>
+
+@code {
+    private double value = 0;
+    string str = "";
+
+    private void Enter()
+    {
+        if(str != "")
+            value = double.Parse(str); // Byt ut mot ShuntingYard.Execute!!
+    }
+    private void BckSpc()
+    {
+        if (str != "")
+            str = str.Substring(0, str.Length - 1);
+    }
+    private void Clear()
+    {
+        str = "";
+        value = 0;
+    }
+    private void Minus() => str += "-";
+    private void B7() => str += "7";
+}

@@ -1,0 +1,8 @@
+servitör
+bord
+meny
+maträtt
+vin
+dryck
+beställningsnota
+betalnota

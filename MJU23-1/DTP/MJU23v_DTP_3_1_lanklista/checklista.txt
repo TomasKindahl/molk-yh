@@ -1,0 +1,13 @@
+  edit /file/				öppna listan av Internetlänkar med en texteditor, redigera den
+							och ladda den igen när texteditorn stängs
+* load
+* load /file/				ladda lista av Internetlänkar från en fil
+* list						lista alla länkar med index-nummer, ämnen, sajter och titlar
+* list topic /topic/		lista alla länkar inom ett visst ämne, med index-nummer
+* list site /site/			lista alla länkar från en viss site, med index-nummer
+* open /index/				öppna en länk med ett visst index-nummer
+* open topic /topic/		öppna alla länkar med ett visst ämne
+  save						spara listan av Internetlänkar tillbaka på den senaste filen som
+							laddades
+  save /file/				spara listan av Internetlänkar tillbaka på angiven fil
+* quit						avsluta

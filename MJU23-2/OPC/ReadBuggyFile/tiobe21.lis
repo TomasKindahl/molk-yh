@@ -1,0 +1,52 @@
+number|programming language|percentage|type|
+1|C|11.62|imp|comp
+2|Java|11.17|iobj|vm
+3|Python|10.95|imp|int
+4|C++|8.01|iobj|comp
+5|C#|4.83|iobj|vm
+6|Visual Basic|4.50|iobj|vm
+7|JavaScript|2.71|iobj|int
+8|PHP|2.58|iobj|int
+9|Assembly|2.40|asm|
+10|SQL|1.53|quer int
+11|Visual Basic Classic|1.39|imp|int
+12|R|1.32|iobj|int
+13|Go|1.17|iobj|comp
+14|Fortran|1.12|imp|comp
+15|Groovy|1.09|iobj|vm
+16|Swift|1.07|iobj|comp
+17|Ruby|0.95|iobj|int
+18|Perl|0.90|imp|int
+19|MATLAB|0.88|imp|int
+20|Delphi/Object Pascal|0.85|iobj|comp
+21|Objective-C|0.76|iobj|comp
+22|Prolog|0.70|log|int
+23|Scratch|0.69|vis|int
+24|SAS|0.66|int|comp?
+25|Lisp|0.5l|func|int
+26|COBOL|O.5O|imp|comp
+27|Rust|0.49|iobj|comp
+28|Ada|0.48|iobj|comp
+29|Dart|0.43|iobj|comp
+30|Transact-SQL|0.43|quer|int
+31|PL/SQL|0.38|imp|comp
+32|ABAP|0.37|imp|comp
+33|VBScript|0.37|imp|int
+34|LabVIEW|0.37|vis|comp
+35|Julia|0.35|imp?|comp
+36|Scala|0.35|func|vm
+37|TypeScript|0.34|iobj|vm
+38|Kotlin|0.32
+39|Haskell|0.30|func
+40|Lua|0.29|imp
+41|Apex|0.29|
+42|(Visual) FoxPro|0.29
+43|Bash|0.26|scr
+44|Scheme|0.26|func
+45|D|0.25|iobj
+46|PL/I|0.24|imp
+47|Elixir|0.24|
+48|Logo|0.23|
+49|PostScript|0.22|
+50|Ladder Logic|0.22|
+

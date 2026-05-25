@@ -1,0 +1,83 @@
+﻿@page "/calc"
+
+<h3>Calculator</h3>
+
+<p role="status">Current computed value: @calcValue</p>
+
+<table>
+    <tr><td><button class="btn btn-primary" @onclick="IncrementCount">+1</button></td>
+        </tr>
+    <tr>
+        <td><button class="btn btn-primary" @onclick="Set1">1</button></td>
+        <td><button class="btn btn-primary" @onclick="Set2">2</button></td>
+        <td><button class="btn btn-primary" @onclick="Set3">3</button></td>
+        <td><button class="btn btn-primary" @onclick="Divide">/</button></td>
+    </tr>
+    <tr>
+        <td><button class="btn btn-primary" @onclick="Set4">4</button></td>
+        <td><button class="btn btn-primary" @onclick="Set5">5</button></td>
+        <td><button class="btn btn-primary" @onclick="Set6">6</button></td>
+        <td><button class="btn btn-primary" @onclick="Multiply">*</button></td>
+    </tr>
+    <tr>
+        <td><button class="btn btn-primary" @onclick="Set7">7</button></td>
+        <td><button class="btn btn-primary" @onclick="Set8">8</button></td>
+        <td><button class="btn btn-primary" @onclick="Set9">9</button></td>
+        <td><button class="btn btn-primary" @onclick="Subtract">-</button></td>
+    </tr>
+    <tr>
+        <td><button class="btn btn-primary" @onclick="Equals">=</button></td>
+        <td><button class="btn btn-primary" @onclick="Set0">0</button></td>
+        <td><button class="btn btn-primary" @onclick="ChangeSign">+/-</button></td>
+        <td><button class="btn btn-primary" @onclick="Add">+</button></td>
+    </tr>
+</table>
+
+@code {
+    private int saveValue = 0;
+    private int calcValue = 0;
+    private char savedOp = ' ';
+
+    private void IncrementCount()
+    {
+        calcValue++;
+    }
+    private void Set1() => calcValue = calcValue*10 + 1;
+    private void Set2() => calcValue = calcValue * 10 + 2;
+    private void Set3() => calcValue = calcValue * 10 + 3;
+    private void Divide() { saveValue = calcValue; calcValue = 0; savedOp = '/'; }
+    private void Set4() => calcValue = calcValue * 10 + 4;
+    private void Set5() => calcValue = calcValue * 10 + 5;
+    private void Set6() => calcValue = calcValue * 10 + 6;
+    private void Multiply() { saveValue = calcValue; calcValue = 0; savedOp = '*'; }
+    private void Set7() => calcValue = calcValue * 10 + 7;
+    private void Set8() => calcValue = calcValue * 10 + 8;
+    private void Set9() => calcValue = calcValue * 10 + 9;
+    private void Subtract() { saveValue = calcValue; calcValue = 0; savedOp = '-';  }
+    private void Equals()
+    {
+        switch(savedOp)
+        {
+            case ' ': break;
+            case '/':
+                calcValue = saveValue / calcValue;
+                saveValue = 0;
+                break;
+            case '*':
+                calcValue = saveValue * calcValue;
+                saveValue = 0;
+                break;
+            case '+':
+                calcValue = saveValue + calcValue;
+                saveValue = 0;
+                break;
+            case '-':
+                calcValue = saveValue - calcValue;
+                saveValue = 0;
+                break;
+        }
+    }
+    private void Set0() => calcValue = calcValue * 10 + 0;
+    private void ChangeSign() => calcValue = -calcValue;
+    private void Add() { saveValue = calcValue; calcValue = 0; savedOp = '+'; }
+}

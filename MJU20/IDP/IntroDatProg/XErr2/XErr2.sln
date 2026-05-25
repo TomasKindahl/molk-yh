@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30611.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XErr2", "XErr2.csproj", "{C6C19768-05F1-49C2-8C2A-E5A6458F325C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C6C19768-05F1-49C2-8C2A-E5A6458F325C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6C19768-05F1-49C2-8C2A-E5A6458F325C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6C19768-05F1-49C2-8C2A-E5A6458F325C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6C19768-05F1-49C2-8C2A-E5A6458F325C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {533FDCE4-4712-429F-8333-21D95CF72575}
+	EndGlobalSection
+EndGlobal

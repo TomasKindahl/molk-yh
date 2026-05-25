@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.0.0">
+  <zoom_level>20</zoom_level>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>260</x>
+      <y>240</y>
+      <w>280</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>:Kund</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>700</x>
+      <y>220</y>
+      <w>280</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;behållare&gt;&gt;
+_:Cykelställ_</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>1140</x>
+      <y>220</y>
+      <w>280</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;behållare&gt;&gt;
+_:Brevlåda_</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>380</x>
+      <y>280</y>
+      <w>60</w>
+      <h>340</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;150.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>820</x>
+      <y>300</y>
+      <w>60</w>
+      <h>320</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;140.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1260</x>
+      <y>300</y>
+      <w>60</w>
+      <h>320</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;140.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>380</x>
+      <y>340</y>
+      <w>500</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+cykel</panel_attributes>
+    <additional_attributes>230.0;30.0;10.0;30.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>380</x>
+      <y>400</y>
+      <w>500</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+nyckel</panel_attributes>
+    <additional_attributes>10.0;30.0;230.0;30.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>380</x>
+      <y>460</y>
+      <w>940</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+nyckel</panel_attributes>
+    <additional_attributes>450.0;30.0;10.0;30.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>260</x>
+      <y>620</y>
+      <w>280</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>Fråga: hur
+knäpp får en
+lärare vara?
+lt=.
+bg=#FFFFEE
+fg=#880000</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

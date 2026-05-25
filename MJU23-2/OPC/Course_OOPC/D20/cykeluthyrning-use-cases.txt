@@ -1,0 +1,47 @@
+NAMN:       Räkna in alla cyklar
+Aktörer:    Säljare
+Mål:        uppdatera listan av uthyrda cyklar
+Förvillkor: --
+Trigger:    kl 6.00
+Grundflöde: 
+    1. säljare tar med lista över ALLA cyklar till cykelstället för
+       inlämning
+    2. FÖR ALLA cyklar i cykelstället
+    3.    registrera ID
+    4.    kontrollera på däck, styre, sits, broms om den är OK
+    5.    OM något behöver justeras
+    6.        justera den
+    7.    OM den behöver repareras
+    8.        registrera den för service
+    9.    ANNARS
+    10.       registrera den som ledig, nollställ datum, kund och telefon
+    11. FÖR ALLA cyklar
+    12.     OM den är uthyrd
+    13.         registrera den som saknad
+
+NAMN:       Hyr ut cyklar
+Aktörer:    Säljare, Kund
+Mål:        kunden skall hyra cyklar
+Förvillkor: kunden visar leg
+Trigger:    kunden kommer in och önskar hyra cykel
+Grundflöde: 
+    1. säljaren frågar hur många cyklar kunden vill hyra
+    2. kunden anger hur många cyklar denne vill hyra
+    3. säljaren frågar efter storlek och dam eller herrcykel
+       för vuxenstorlek
+    4. kunden väljer storlek och typ
+    5. säljaren anger priset
+    6. kunden accepterar (eller inte)
+    7. OM kunden accepterar
+    8.    säljaren tar med kunden ut på visning av lediga cyklarna
+          av efterfrågad typ
+    9.    kunden accepterar (eller inte)
+    10.   OM kunden accepterar
+    11.       säljaren begär legitimation, adress och telefon
+    12.       kunden visar legitimation, och anger adress och telefon
+    13.       OM legitimation är OK
+    14.            säljaren begär betalt
+    15.            kunden betalar anget pris
+    16.            säljaren ger kvitto
+    17.            säljaren justerar cyklarnas sadelhöjd efter användarna
+    18.            säljaren instruerar hur cyklarna skall återlämnas i stället

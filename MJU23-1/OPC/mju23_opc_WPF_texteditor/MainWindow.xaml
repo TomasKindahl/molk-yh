@@ -1,0 +1,21 @@
+﻿<Window x:Class="opc1_d11_WPF_texteditor.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:opc1_d11_WPF_texteditor"
+        mc:Ignorable="d"
+        Title="TomKi's ultrasimpla text-editor" Height="400" Width="600">
+    <Grid>
+        <Menu Height="24" VerticalAlignment="Top" FontSize="16">
+            <MenuItem Header="_File">
+                <MenuItem Header="_New" Click="MenuNew"/>
+                <MenuItem Header="_Open" Click="MenuOpen"/>
+                <MenuItem Header="_Save" Click="MenuSave"/>
+                <MenuItem Header="_Quit" Click="MenuQuit"/>
+            </MenuItem>            
+        </Menu>
+        <TextBox Name="TextEdit" HorizontalAlignment="Stretch" Margin="0,24,0,24" TextWrapping="Wrap" Text="" VerticalAlignment="Stretch" FontSize="16" AcceptsReturn="True" AcceptsTab="True" AutoWordSelection="True"/>
+        <TextBlock Name="MessageBar" Height="24" HorizontalAlignment="Stretch" Margin="0,0,0,0" TextWrapping="Wrap" Text="MessageBar" VerticalAlignment="Bottom" FontSize="16"/>
+    </Grid>
+</Window>

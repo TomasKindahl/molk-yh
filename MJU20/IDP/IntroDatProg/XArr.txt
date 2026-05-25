@@ -1,0 +1,74 @@
+Extra array-övningar:
+
+    XArr1: Använd INTE array: skriv ett program som slumpar
+       10 tal mellan 1 till 10, och skriver ut dem till
+       skärmen, exempelvis
+         3
+         2
+         8
+         5
+         8 
+         10
+         6
+         5
+         10
+         7
+         Press any key to continue . . .
+		 
+       Använd en for-loop!
+
+    XArr2: Lös exakt samma uppgift, men använd en array
+       där du sparar de slumpade värdena, skriv sedan ut dem
+       så här (bara ett exempel):
+         1: 3
+         2: 2
+         3: 8
+         4: 5
+         5: 8
+         6: 10
+         7: 6
+         8: 5
+         9: 10
+         10: 7
+         Press any key to continue . . .
+		 
+       Skriv alltså ut arrayen EFTER att du lagt in slump-
+       värden i arrayen. 
+	
+       Använd en for-loop även för utskriften.
+
+    XArr3: Gör som i uppgift 2, men skriv ut dem uppifrån
+       och ner. Använd en for-loop som räknar uppifrån och
+       ner.
+
+    XArr4: I samma array skriv ut alla jämna index-element,
+       Designa for-loopen så att den börjar på 0 och skriver
+       ut vart annat arrayelement.
+	   
+    XArr5: Gå igenom samma array men skriv ut bara de
+       element som är jämnt delbara med tre.
+	   
+    XArr6: I samma array skriv ut index-elementen 1, 2, 4
+       och 8. Designa for-loopen så att den börjar på 1 och
+       dubblerar index.
+
+    XArr7: Lägg till en ny array som registrerar statistik.
+       Eftersom slumpvärdena är från och med 1 till 10, så
+       skall statistiken ha indexen 1 till och med 10. Noll-
+       ställ statistiken. Scanna igenom arrayen med slumptal. 
+       Om du hittar ett slumptal med värdet k skall du räkna
+       upp statistiken för talet k. 
+	   
+       När du gått igenom alla slumpvärden skriver du ut
+       statistiken, t.ex. på detta vis:
+         antal 1:or: 3
+         antal 2:or: 0
+         antal 3:or: 2
+         antal 4:or: 1
+         antal 5:or: 0
+         antal 6:or: 1
+         antal 7:or: 0
+         antal 8:or: 0
+         antal 9:or: 1
+         antal 10:or: 1
+         Press any key to continue . . .

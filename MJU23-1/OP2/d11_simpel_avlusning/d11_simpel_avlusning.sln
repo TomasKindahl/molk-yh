@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34723.18
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "d11_simpel_avlusning", "d11_simpel_avlusning.csproj", "{DD2ED669-E088-470C-9F87-76E864E44A5C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DD2ED669-E088-470C-9F87-76E864E44A5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD2ED669-E088-470C-9F87-76E864E44A5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD2ED669-E088-470C-9F87-76E864E44A5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD2ED669-E088-470C-9F87-76E864E44A5C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EAFD5C08-509E-4497-A811-E1EE4082D988}
+	EndGlobalSection
+EndGlobal

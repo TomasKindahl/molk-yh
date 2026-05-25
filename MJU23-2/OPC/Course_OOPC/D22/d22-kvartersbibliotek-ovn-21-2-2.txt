@@ -1,0 +1,65 @@
+NAMN:       Hitta bok i hylla
+Aktörer:    Boklånare, vid behov Bibliotekarie
+Mål:        Boklånare bär bok i avsikt att låna den
+Förvillkor: Boken är ej utlånad
+Trigger:    --
+Grundflöde: 
+  * boklånare går till förmodad ämneshylla
+  * alternativ 1:
+  *   boklånare tittar i bokhyllan och ser om det finns
+      något intressant
+  * alternativ 2:
+  *   boklånare letar efter titel, författare och/eller ämne
+  * boklånare hittar eller hittar inte boken i någon hylla
+  * Möjlig fortsatt utveckling: Hitta bok i databas
+--------------------------------------------------------------------
+NAMN:       Hitta bok i databas
+Aktörer:    Boklånare, Bokdatabas, vid behov Bibliotekarie
+Mål:        Boklånare bär bok i avsikt att låna den
+Förvillkor: Bok registrerad som ej utlånad, boken är ej utlånad
+Trigger:    Boklånare går in på terminalen för Bokdatabasen
+Grundflöde: 
+  * boklånare söker på titel och författare
+  * boklånare hittar eller hittar inte boken
+  * OM boken hittas:
+  *    OM boken är registrerad som ej utlånad:
+  *       Möjlig fortsatt utveckling: Hitta bok i hylla
+  *    OM boken är registrerad som utlånad:
+  *       Möjlig fortsatt utveckling: Reservera boken
+--------------------------------------------------------------------
+NAMN:       Betala skuld
+Aktörer:    Boklånare, Bibliotekarie
+Mål:        Boklånares skuld blir noll
+Förvillkor: Boklånare har en skuld
+Trigger:    Boklånare kommer till bibliotekarie och vill betala
+Grundflöde: 
+  * boklånare går till bibliotekarie och ber att få betala skuld 
+  * bibliotekarie slår upp boklånaren och ser att skulden är n SEK
+  * bibliotekarie begär n SEK
+  * boklånare betalar n SEK
+  * bibliotekarie nollställer boklånarens skuld
+--------------------------------------------------------------------
+NAMN:       Låna böcker
+Aktörer:    Boklånare, Låneautomat, vid behov Bibliotekarie
+Mål:        Böcker registrerade på Boklånare
+Förvillkor: Boklånare bär böcker som denne vill låna
+Trigger:    Boklånare går in på terminalen för Låneautomat
+Grundflöde: 
+  * boklånare sätter in sitt lånekort
+  * terminalen signalerar att boklånare ska scanna bok
+  * FOREACH bok
+  *   boklånare scannar bok
+  * boklånare tar ut kortet
+  * terminalen skriver ut/SMS:ar ett kvitto
+--------------------------------------------------------------------
+NAMN:       Återlämna böcker
+Aktörer:    Boklånare, Återlämningsautomat, vid behov Bibliotekarie
+Mål:        Böcker avregistrerade från Boklånare
+Förvillkor: Boklånare bär böcker som denne vill lämna tillbaka
+Trigger:    Boklånare går in på terminalen för Återlämningsautomat
+Grundflöde: 
+  * terminalen signalerar att boklånare ska lägga in bok
+  * FOREACH bok
+  *   boklånare lägger in bok
+  * boklånare trycker på knappen för kvitto
+  * terminalen skriver ut/SMS:ar ett kvitto

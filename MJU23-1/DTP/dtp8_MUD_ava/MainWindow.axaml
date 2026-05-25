@@ -1,0 +1,23 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="600"
+        x:Class="dtp8_MUD_ava.MainWindow"
+        Title="MUD Game (Avalonia)"
+        Height="450" Width="560" KeyUp="ApplicationKeyPress">
+   <Grid>
+     <TextBlock x:Name="TitleText" FontWeight="Bold" FontSize="20" HorizontalAlignment="Stretch" VerticalAlignment="Top" Margin="10,5,10,20" TextWrapping="Wrap" Text="Välkommen till MUD:en"/>
+     <TextBlock x:Name="KeyPressDisplay" HorizontalAlignment="Stretch" Margin="0,30,0,0" TextWrapping="Wrap" Text="Keypress:" VerticalAlignment="Bottom"/>
+     <TextBlock x:Name="RoomText" FontSize="20" Margin="10,30,300,20" TextWrapping="Wrap" Text="Du befinner dig i Yylrummet"/>
+     <TextBlock x:Name="KeyTitle" FontSize="20" Margin="310,240,30,20" VerticalAlignment="Top" Height="30" TextWrapping="Wrap" Text="Tangenttryckningar:"/>
+     <TextBlock x:Name="KeyAlt1" Text="upp      gå norrut" FontSize="16" Margin="330,270,30,20" VerticalAlignment="Top" TextWrapping="Wrap" FontFamily="Mono"/>
+     <TextBlock x:Name="KeyAlt2" Text="vänster  gå västerut" FontSize="16" Margin="330,290,30,20" VerticalAlignment="Top" TextWrapping="Wrap" FontFamily="Mono"/>
+     <TextBlock x:Name="KeyAlt3" Text="ner      gå söderut" FontSize="16" Margin="330,310,30,20" VerticalAlignment="Top" TextWrapping="Wrap" FontFamily="Mono"/>
+     <TextBlock x:Name="KeyAlt4" Text="höger    gå österut" FontSize="16" Margin="330,330,30,20" VerticalAlignment="Top" TextWrapping="Wrap" FontFamily="Mono"/>
+     <TextBlock x:Name="KeyAlt5" Text="s        sök" FontSize="16" Margin="330,350,30,20" VerticalAlignment="Top" TextWrapping="Wrap" FontFamily="Mono"/>
+     <TextBlock x:Name="KeyAlt6" Text="n        lås upp" FontSize="16" Margin="330,370,30,20" VerticalAlignment="Top" TextWrapping="Wrap" FontFamily="Mono"/>
+     <TextBlock x:Name="KeyAlt7" Text="escape   avsluta" FontSize="16" Margin="330,390,30,20" VerticalAlignment="Top" TextWrapping="Wrap" FontFamily="Mono"/>
+     <Image x:Name="RoomImage" HorizontalAlignment="Left" Height="230" Margin="310,10,0,0" VerticalAlignment="Top" Width="230"/>
+   </Grid>
+</Window>

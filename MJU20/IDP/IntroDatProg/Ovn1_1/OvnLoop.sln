@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30611.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OvnLoop", "OvnLoop.csproj", "{E2C20B77-5D55-491A-BFDE-2A8DAEE5CFEA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E2C20B77-5D55-491A-BFDE-2A8DAEE5CFEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2C20B77-5D55-491A-BFDE-2A8DAEE5CFEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2C20B77-5D55-491A-BFDE-2A8DAEE5CFEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2C20B77-5D55-491A-BFDE-2A8DAEE5CFEA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D10C0231-AFE5-45FC-8AA3-9C0EF3B7EB34}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,6 @@
+Översikt:
+
+   XArr är extra enkla övningar på arrayer med loopar.
+
+   XErr är övningar med felhantering.
+

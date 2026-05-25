@@ -1,0 +1,33 @@
+﻿@page "/read"
+@inject FileService FileService
+
+<h3>Address List</h3>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Address</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var entry in addressEntries)
+        {
+            <tr>
+                <td>@entry.Name</td>
+                <td>@entry.Address</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@code {
+    private List<AddressEntry> addressEntries;
+
+    protected override void OnInitialized()
+    {
+        // Provide the correct path to your text file
+        string filePath = "wwwroot/address.txt";
+        addressEntries = FileService.ReadFile(filePath);
+    }
+}

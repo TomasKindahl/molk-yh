@@ -1,0 +1,4 @@
+﻿Arne Kurt-Erik Svensson;adress:Bredgatan 33, 246 44, Svenneryd;telefon privat:077-113 14 16;epost privat:arne.svensson@hemma.se
+Berith Vipsania Qvist;adress:Gränden 44, 223 11, Svantemåla;telefon privat:0709-12 22 34;telefon arbete:0434-12 33 44;epost privat:berith616@gnorgle.com
+Caesar Sven-Åke Augustsson;adress:Torpet, 234 56, Torsktorp;telefon privat:073-445 02 02;telefon arbete:0434-98 76 54;epost arbete:caesar@imperiet.se
+David Torstensson;s

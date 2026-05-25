@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.0.0">
+  <zoom_level>15</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>225</x>
+      <y>765</y>
+      <w>690</w>
+      <h>315</h>
+    </coordinates>
+    <panel_attributes>Person
+--
+−name : string
+−address : string
+--
++&lt;&lt;constructor&gt;&gt; Person(name : string)
++CallPerson(time : string) : bool
+--
+Responsibilities
+-- store address data for person</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>225</x>
+      <y>1200</y>
+      <w>690</w>
+      <h>240</h>
+    </coordinates>
+    <panel_attributes>Customer
+--
+−id : int
+--
++&lt;&lt;constructor&gt;&gt; Customer(name : string)
+--
+Responsibilities
+-- store address data for a customer</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>570</x>
+      <y>1065</y>
+      <w>45</w>
+      <h>165</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;90.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1170</x>
+      <y>1200</y>
+      <w>630</w>
+      <h>240</h>
+    </coordinates>
+    <panel_attributes>Product
+--
+−id : int
+--
++&lt;&lt;constructor&gt;&gt; Product(name : string)
+--</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>900</x>
+      <y>1320</y>
+      <w>300</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-
+m1=1
+m2=1..n</panel_attributes>
+    <additional_attributes>10.0;10.0;180.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLObject</id>
+    <coordinates>
+      <x>1035</x>
+      <y>225</y>
+      <w>915</w>
+      <h>915</h>
+    </coordinates>
+    <panel_attributes>valign=top
+halign=left
+class Product
+{
+        private int id;
+        public Product(string name) { }
+}
+class Person
+{
+        private string name, address, phone;
+        public Person(string name)
+        {
+                this.name = name;
+        }
+        public bool CallPerson(string time)
+        {
+                // Prepare a call for that person at a certain time
+                return true;
+        }
+}
+class Customer : Person
+{
+        private int id;
+        public Customer(int id, string name)
+                : base(name)
+        {
+                this.id = id;
+        }
+}</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

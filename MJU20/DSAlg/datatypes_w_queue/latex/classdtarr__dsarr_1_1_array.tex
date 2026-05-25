@@ -1,0 +1,160 @@
+\hypertarget{classdtarr__dsarr_1_1_array}{}\doxysection{dtarr\+\_\+dsarr.\+Array\texorpdfstring{$<$}{<} T \texorpdfstring{$>$}{>} Class Template Reference}
+\label{classdtarr__dsarr_1_1_array}\index{dtarr\_dsarr.Array$<$ T $>$@{dtarr\_dsarr.Array$<$ T $>$}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classdtarr__dsarr_1_1_array_a3c15315289b9a608bf337e8bb8cec2b3}{Array}} (int size)
+\begin{DoxyCompactList}\small\item\em Constructor that allocates an array of elements with a size \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classdtarr__dsarr_1_1_array_a86891aaea56e9301fcf119ccbd204991}{Array}} (T\mbox{[}$\,$\mbox{]} raw\+Array)
+\begin{DoxyCompactList}\small\item\em Constructor that allocates an array of elements copying the content from a raw datatype array \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classdtarr__dsarr_1_1_array_aa53fd16d506e1ec97db490df9e2a6b56}{Set}} (int ix, T val)
+\begin{DoxyCompactList}\small\item\em Change element at a certain index to a new value \end{DoxyCompactList}\item 
+T \mbox{\hyperlink{classdtarr__dsarr_1_1_array_aa3dd98aacf8da6589f3a9ea2f83bb60c}{Get}} (int ix)
+\begin{DoxyCompactList}\small\item\em Access element at certain index \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classdtarr__dsarr_1_1_array_aa5e10e7002bb71dc8742bbce8881b968}{Length}} ()
+\begin{DoxyCompactList}\small\item\em Get the length of the \mbox{\hyperlink{classdtarr__dsarr_1_1_array}{Array}} \end{DoxyCompactList}\item 
+override string \mbox{\hyperlink{classdtarr__dsarr_1_1_array_a0c43b6d47cb9c59729ab4de55fd24127}{To\+String}} ()
+\begin{DoxyCompactList}\small\item\em Autoconvert method for printout \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+T \mbox{\hyperlink{classdtarr__dsarr_1_1_array_a4d54fa48fca4ebc7f72deb1facc2286f}{this\mbox{[}int ix\mbox{]}}}\hspace{0.3cm}{\ttfamily  \mbox{[}getset\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Accessor property for bracketed array access and assignment \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classdtarr__dsarr_1_1_array_a3c15315289b9a608bf337e8bb8cec2b3}\label{classdtarr__dsarr_1_1_array_a3c15315289b9a608bf337e8bb8cec2b3}} 
+\index{dtarr\_dsarr.Array$<$ T $>$@{dtarr\_dsarr.Array$<$ T $>$}!Array@{Array}}
+\index{Array@{Array}!dtarr\_dsarr.Array$<$ T $>$@{dtarr\_dsarr.Array$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{Array()}{Array()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classdtarr__dsarr_1_1_array}{dtarr\+\_\+dsarr.\+Array}}$<$ T $>$.\mbox{\hyperlink{classdtarr__dsarr_1_1_array}{Array}} (\begin{DoxyParamCaption}\item[{int}]{size }\end{DoxyParamCaption})}
+
+
+
+Constructor that allocates an array of elements with a size 
+
+
+\begin{DoxyParams}{Parameters}
+{\em size} & desired size\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Argument\+Out\+Of\+Range\+Exception} & if size ≤ 0\\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classdtarr__dsarr_1_1_array_a86891aaea56e9301fcf119ccbd204991}\label{classdtarr__dsarr_1_1_array_a86891aaea56e9301fcf119ccbd204991}} 
+\index{dtarr\_dsarr.Array$<$ T $>$@{dtarr\_dsarr.Array$<$ T $>$}!Array@{Array}}
+\index{Array@{Array}!dtarr\_dsarr.Array$<$ T $>$@{dtarr\_dsarr.Array$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{Array()}{Array()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classdtarr__dsarr_1_1_array}{dtarr\+\_\+dsarr.\+Array}}$<$ T $>$.\mbox{\hyperlink{classdtarr__dsarr_1_1_array}{Array}} (\begin{DoxyParamCaption}\item[{T\mbox{[}$\,$\mbox{]}}]{raw\+Array }\end{DoxyParamCaption})}
+
+
+
+Constructor that allocates an array of elements copying the content from a raw datatype array 
+
+
+\begin{DoxyParams}{Parameters}
+{\em raw\+Array} & raw datatype array to copy from\\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classdtarr__dsarr_1_1_array_aa3dd98aacf8da6589f3a9ea2f83bb60c}\label{classdtarr__dsarr_1_1_array_aa3dd98aacf8da6589f3a9ea2f83bb60c}} 
+\index{dtarr\_dsarr.Array$<$ T $>$@{dtarr\_dsarr.Array$<$ T $>$}!Get@{Get}}
+\index{Get@{Get}!dtarr\_dsarr.Array$<$ T $>$@{dtarr\_dsarr.Array$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{Get()}{Get()}}
+{\footnotesize\ttfamily T \mbox{\hyperlink{classdtarr__dsarr_1_1_array}{dtarr\+\_\+dsarr.\+Array}}$<$ T $>$.Get (\begin{DoxyParamCaption}\item[{int}]{ix }\end{DoxyParamCaption})}
+
+
+
+Access element at certain index 
+
+
+\begin{DoxyParams}{Parameters}
+{\em ix} & the index\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the element at a certain index in the array
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Index\+Out\+Of\+Range\+Exception} & if index \texorpdfstring{$<$}{<} 0 or \mbox{\hyperlink{classdtarr__dsarr_1_1_array_aa5e10e7002bb71dc8742bbce8881b968}{Length()}} ≤ index\\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classdtarr__dsarr_1_1_array_aa5e10e7002bb71dc8742bbce8881b968}\label{classdtarr__dsarr_1_1_array_aa5e10e7002bb71dc8742bbce8881b968}} 
+\index{dtarr\_dsarr.Array$<$ T $>$@{dtarr\_dsarr.Array$<$ T $>$}!Length@{Length}}
+\index{Length@{Length}!dtarr\_dsarr.Array$<$ T $>$@{dtarr\_dsarr.Array$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{Length()}{Length()}}
+{\footnotesize\ttfamily int \mbox{\hyperlink{classdtarr__dsarr_1_1_array}{dtarr\+\_\+dsarr.\+Array}}$<$ T $>$.Length (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Get the length of the \mbox{\hyperlink{classdtarr__dsarr_1_1_array}{Array}} 
+
+\begin{DoxyReturn}{Returns}
+the length
+\end{DoxyReturn}
+\mbox{\Hypertarget{classdtarr__dsarr_1_1_array_aa53fd16d506e1ec97db490df9e2a6b56}\label{classdtarr__dsarr_1_1_array_aa53fd16d506e1ec97db490df9e2a6b56}} 
+\index{dtarr\_dsarr.Array$<$ T $>$@{dtarr\_dsarr.Array$<$ T $>$}!Set@{Set}}
+\index{Set@{Set}!dtarr\_dsarr.Array$<$ T $>$@{dtarr\_dsarr.Array$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{Set()}{Set()}}
+{\footnotesize\ttfamily void \mbox{\hyperlink{classdtarr__dsarr_1_1_array}{dtarr\+\_\+dsarr.\+Array}}$<$ T $>$.Set (\begin{DoxyParamCaption}\item[{int}]{ix,  }\item[{T}]{val }\end{DoxyParamCaption})}
+
+
+
+Change element at a certain index to a new value 
+
+
+\begin{DoxyParams}{Parameters}
+{\em ix} & the index\\
+\hline
+{\em val} & the new value\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Index\+Out\+Of\+Range\+Exception} & if index \texorpdfstring{$<$}{<} 0 or \mbox{\hyperlink{classdtarr__dsarr_1_1_array_aa5e10e7002bb71dc8742bbce8881b968}{Length()}} ≤ index\\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classdtarr__dsarr_1_1_array_a0c43b6d47cb9c59729ab4de55fd24127}\label{classdtarr__dsarr_1_1_array_a0c43b6d47cb9c59729ab4de55fd24127}} 
+\index{dtarr\_dsarr.Array$<$ T $>$@{dtarr\_dsarr.Array$<$ T $>$}!ToString@{ToString}}
+\index{ToString@{ToString}!dtarr\_dsarr.Array$<$ T $>$@{dtarr\_dsarr.Array$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{ToString()}{ToString()}}
+{\footnotesize\ttfamily override string \mbox{\hyperlink{classdtarr__dsarr_1_1_array}{dtarr\+\_\+dsarr.\+Array}}$<$ T $>$.To\+String (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Autoconvert method for printout 
+
+\begin{DoxyReturn}{Returns}
+a string representing the content of the array
+\end{DoxyReturn}
+
+
+\doxysubsection{Property Documentation}
+\mbox{\Hypertarget{classdtarr__dsarr_1_1_array_a4d54fa48fca4ebc7f72deb1facc2286f}\label{classdtarr__dsarr_1_1_array_a4d54fa48fca4ebc7f72deb1facc2286f}} 
+\index{dtarr\_dsarr.Array$<$ T $>$@{dtarr\_dsarr.Array$<$ T $>$}!this\mbox{[}int ix\mbox{]}@{this[int ix]}}
+\index{this\mbox{[}int ix\mbox{]}@{this[int ix]}!dtarr\_dsarr.Array$<$ T $>$@{dtarr\_dsarr.Array$<$ T $>$}}
+\doxysubsubsection{\texorpdfstring{this[int ix]}{this[int ix]}}
+{\footnotesize\ttfamily T \mbox{\hyperlink{classdtarr__dsarr_1_1_array}{dtarr\+\_\+dsarr.\+Array}}$<$ T $>$.this\mbox{[}int ix\mbox{]}\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Accessor property for bracketed array access and assignment 
+
+
+\begin{DoxyParams}{Parameters}
+{\em ix} & the bracket index\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+dtarr\+\_\+dsarr.\+cs\end{DoxyCompactItemize}
