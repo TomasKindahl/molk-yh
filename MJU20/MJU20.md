@@ -4,7 +4,8 @@
 
 ### Directories
 
-- [IDP](IDP/dir.md) introduktion till datorer och programmering
+- [IDP](IDP/dir.md) introduktion till datorer och programmering:
+    - OS, kommandorad/bash
 - [DTP](DTP/dir.md) datalogiskt tänkande och problemlösning
 - [DB](DB/dir.md) databaser
 - [DSAlg](DSAlg/dir.md) datastrukturer och algoritmer

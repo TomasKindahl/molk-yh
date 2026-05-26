@@ -9,5 +9,5 @@
 
 ### Directories
 
-- [IntroDatProg](IntroDatProg/dir.md)
+- [IntroDatProg](IntroDatProg/README.md)
 
