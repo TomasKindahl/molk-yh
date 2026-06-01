@@ -1,6 +1,9 @@
-# include
+# Diot24H_Moment_1, d5dirlay.1, src
 
-"Bibliotek" med återanvändbara funktioner.
+[UP](../D24-M1-d5dirlay-1.md) [Here](.)
 
-[Upp](..)
+Headerfiler: "bibliotek" med återanvändbara funktioner.
 
+## Filer
+
+- [mymath.h](mymath.h)

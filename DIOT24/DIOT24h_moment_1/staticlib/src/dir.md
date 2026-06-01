@@ -1,8 +1,10 @@
-# Diot24H_Moment_1, d8staticlib, src
+# staticlib/src
 
-[UP](../D24-M1-d8staticlib.md) [Here](.)
+Källkod.
 
-### Filer
+[Up](../DIOT24-staticlib.md) [Here](.)
+
+### Files
 
 - [Makefile](Makefile)
 - [iacc.c](iacc.c)

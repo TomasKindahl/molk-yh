@@ -1,5 +1,12 @@
-# src
+# Diot24H_Moment_1, d5dirlay.1, src
 
-Alla utvecklingsfiler, källkod, Makefiles med mera.
+[UP](../D24-M1-d5dirlay-1.md) [Here](.)
 
-[Upp](..)
+Källkodsfiler
+
+## Filer
+
+- [Makefile](Makefile)
+- [Makefile.w.auto](Makefile.w.auto)
+- [main.c](main.c)
+- [mymath.c](mymath.c)
