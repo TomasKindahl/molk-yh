@@ -1,12 +1,14 @@
 # MJU20
 
-[Up](../dir.md) [Here](.)
+[UP](../README.md) [Here](.)
 
-### Directories
+## Kataloger
 
-- [IDP](IDP/dir.md) introduktion till datorer och programmering:
-    - OS, kommandorad/bash
-- [DTP](DTP/dir.md) datalogiskt tänkande och problemlösning
-- [DB](DB/dir.md) databaser
-- [DSAlg](DSAlg/dir.md) datastrukturer och algoritmer
-- [OP2](OP2/dir.md) objektorienterad programmering 2
+|kurs                           |tid      |beskrivning                                |innehåll                   |
+|-------------------------------|---------|-------------------------------------------|---------------------------|
+|[IDP](IDP/MJU20-IDP.md)        |okt 2020?|Introduktion till Datorer och Programmering|OS, kommandorad/bash[?], C#|
+|[DTP](DTP/MJU20-DTP.md)        |         |Datalogiskt Tänkande och Problemlösning    |                           |
+|[DB](DB/MJU20-DB.md)           |         |Databaser                                  |                           |
+|[DSAlg](DSAlg/MJU20-DSAlg.md)  |         |Datastrukturer och Algoritmer              |                           |
+|[OP2](OP2/MJU20-OP2.md)        |         |Objektorienterad Programmering 2           |                           |
+
