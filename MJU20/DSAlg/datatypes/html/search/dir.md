@@ -1,0 +1,46 @@
+# Dsalg
+
+[UP](../dir.md) [Here](.)
+
+## Directories
+
+
+## Files
+
+- [all_0.html](all_0.html)
+- [all_0.js](all_0.js)
+- [all_1.html](all_1.html)
+- [all_1.js](all_1.js)
+- [all_2.html](all_2.html)
+- [all_2.js](all_2.js)
+- [all_3.html](all_3.html)
+- [all_3.js](all_3.js)
+- [all_4.html](all_4.html)
+- [all_4.js](all_4.js)
+- [all_5.html](all_5.html)
+- [all_5.js](all_5.js)
+- [classes_0.html](classes_0.html)
+- [classes_0.js](classes_0.js)
+- [classes_1.html](classes_1.html)
+- [classes_1.js](classes_1.js)
+- [classes_2.html](classes_2.html)
+- [classes_2.js](classes_2.js)
+- [close.svg](close.svg)
+- [functions_0.html](functions_0.html)
+- [functions_0.js](functions_0.js)
+- [functions_1.html](functions_1.html)
+- [functions_1.js](functions_1.js)
+- [functions_2.html](functions_2.html)
+- [functions_2.js](functions_2.js)
+- [functions_3.html](functions_3.html)
+- [functions_3.js](functions_3.js)
+- [mag_sel.svg](mag_sel.svg)
+- [namespaces_0.html](namespaces_0.html)
+- [namespaces_0.js](namespaces_0.js)
+- [nomatches.html](nomatches.html)
+- [search.css](search.css)
+- [search.js](search.js)
+- [search_l.png](search_l.png)
+- [search_m.png](search_m.png)
+- [search_r.png](search_r.png)
+- [searchdata.js](searchdata.js)

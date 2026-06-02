@@ -1,0 +1,47 @@
+# Dsalg
+
+[UP](../dir.md) [Here](.)
+
+## Directories
+
+- [search](search/dir.md)
+
+## Files
+
+- [annotated.html](annotated.html)
+- [bc_s.png](bc_s.png)
+- [bdwn.png](bdwn.png)
+- [classarr_1_1_array-members.html](classarr_1_1_array-members.html)
+- [classarr_1_1_array.html](classarr_1_1_array.html)
+- [classes.html](classes.html)
+- [classgenarr_1_1_program-members.html](classgenarr_1_1_program-members.html)
+- [classgenarr_1_1_program.html](classgenarr_1_1_program.html)
+- [closed.png](closed.png)
+- [doc.png](doc.png)
+- [doxygen.css](doxygen.css)
+- [doxygen.svg](doxygen.svg)
+- [dynsections.js](dynsections.js)
+- [folderclosed.png](folderclosed.png)
+- [folderopen.png](folderopen.png)
+- [functions.html](functions.html)
+- [functions_func.html](functions_func.html)
+- [functions_prop.html](functions_prop.html)
+- [index.html](index.html)
+- [jquery.js](jquery.js)
+- [menu.js](menu.js)
+- [menudata.js](menudata.js)
+- [namespacearr.html](namespacearr.html)
+- [namespacegenarr.html](namespacegenarr.html)
+- [namespaces.html](namespaces.html)
+- [nav_f.png](nav_f.png)
+- [nav_g.png](nav_g.png)
+- [nav_h.png](nav_h.png)
+- [open.png](open.png)
+- [splitbar.png](splitbar.png)
+- [sync_off.png](sync_off.png)
+- [sync_on.png](sync_on.png)
+- [tab_a.png](tab_a.png)
+- [tab_b.png](tab_b.png)
+- [tab_h.png](tab_h.png)
+- [tab_s.png](tab_s.png)
+- [tabs.css](tabs.css)
