@@ -1,16 +1,10 @@
-# Mju23-1
+# MJU23-1, DTP, DTP9_MUD_console
 
-[UP](../dir.md) [Here](.)
+[Up](../MJU23-1-DTP.md) [Here](.)
 
-## Directories
+## Filer
 
-
-## Files
-
-- [.gitattributes](.gitattributes)
-- [.gitignore](.gitignore)
 - [DTP9_MUD_console.csproj](DTP9_MUD_console.csproj)
 - [DTP9_MUD_console.sln](DTP9_MUD_console.sln)
-- [LICENSE.txt](LICENSE.txt)
 - [Program.cs](Program.cs)
 - [README.md](README.md)

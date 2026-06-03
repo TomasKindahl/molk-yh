@@ -1,13 +1,9 @@
-# Mju23-1
+# MJU23-1, DTP, dtp8_MUD_ava
 
-[UP](../dir.md) [Here](.)
+[Up](../MJU23-1-DTP.md) [Here](.)
 
-## Directories
+## Filer
 
-
-## Files
-
-- [.gitignore](.gitignore)
 - [App.axaml](App.axaml)
 - [App.axaml.cs](App.axaml.cs)
 - [MainWindow.axaml](MainWindow.axaml)

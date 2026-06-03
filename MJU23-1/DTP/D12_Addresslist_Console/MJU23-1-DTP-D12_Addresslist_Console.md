@@ -1,17 +1,14 @@
-# Mju23-1
+# MJU23-1, DTP, D12_Addresslist_Console
 
-[UP](../dir.md) [Here](.)
+[Up](../MJU23-1-DTP.md) [Here](.)
 
-## Directories
+## Kataloger
 
 - [lists](lists/dir.md)
 
-## Files
+## Filer
 
-- [.gitattributes](.gitattributes)
-- [.gitignore](.gitignore)
 - [D12_Addresslist_Console.csproj](D12_Addresslist_Console.csproj)
 - [D12_Addresslist_Console.sln](D12_Addresslist_Console.sln)
-- [LICENSE.txt](LICENSE.txt)
 - [Program.cs](Program.cs)
 - [README.md](README.md)

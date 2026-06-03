@@ -1,15 +1,11 @@
-# Mju23-1
+# MJU23-1, DTP, MJU23v_D10_inl_sveng_clone
 
-[UP](../dir.md) [Here](.)
-
-## Directories
+## Kataloger
 
 - [dict](dict/dir.md)
 
-## Files
+## Filer
 
-- [.gitattributes](.gitattributes)
-- [.gitignore](.gitignore)
 - [MJU23v_D10_inl_sveng.csproj](MJU23v_D10_inl_sveng.csproj)
 - [MJU23v_D10_inl_sveng.sln](MJU23v_D10_inl_sveng.sln)
 - [Program.cs](Program.cs)

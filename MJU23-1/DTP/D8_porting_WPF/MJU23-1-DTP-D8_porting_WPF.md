@@ -1,20 +1,14 @@
-# Mju23-1
+# MJU23-1, DTP, D8_porting_WPF
 
-[UP](../dir.md) [Here](.)
+[Up](../MJU23-1-DTP.md) [Here](.)
 
-## Directories
+## Filer
 
-
-## Files
-
-- [.gitattributes](.gitattributes)
-- [.gitignore](.gitignore)
 - [App.xaml](App.xaml)
 - [App.xaml.cs](App.xaml.cs)
 - [AssemblyInfo.cs](AssemblyInfo.cs)
 - [D8_porting_WPF.csproj](D8_porting_WPF.csproj)
 - [D8_porting_WPF.sln](D8_porting_WPF.sln)
-- [LICENSE.txt](LICENSE.txt)
 - [MainWindow.xaml](MainWindow.xaml)
 - [MainWindow.xaml.cs](MainWindow.xaml.cs)
 - [README.md](README.md)

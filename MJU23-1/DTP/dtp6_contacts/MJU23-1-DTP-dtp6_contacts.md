@@ -1,13 +1,9 @@
-# Mju23-1
+# MJU23-1, DTP, dtp6_contacts
 
-[UP](../dir.md) [Here](.)
+[Up](../MJU23-1-DTP.md) [Here](.)
 
-## Directories
+## Filer
 
-
-## Files
-
-- [LICENSE.txt](LICENSE.txt)
 - [Program.cs](Program.cs)
 - [README.md](README.md)
 - [dtp6_contacts.csproj](dtp6_contacts.csproj)

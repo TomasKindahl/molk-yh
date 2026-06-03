@@ -1,15 +1,9 @@
-# Mju23-1
+# MJU23-1, DTP, MJU23v_DTP4_otroligt_fult
 
-[UP](../dir.md) [Here](.)
+[Up](../MJU23-1-DTP.md) [Here](.)
 
-## Directories
+## Filer
 
-
-## Files
-
-- [.gitattributes](.gitattributes)
-- [.gitignore](.gitignore)
-- [LICENSE.txt](LICENSE.txt)
 - [MJU23v_DTP4_otroligt_fult.csproj](MJU23v_DTP4_otroligt_fult.csproj)
 - [MJU23v_DTP4_otroligt_fult.sln](MJU23v_DTP4_otroligt_fult.sln)
 - [Program.cs](Program.cs)

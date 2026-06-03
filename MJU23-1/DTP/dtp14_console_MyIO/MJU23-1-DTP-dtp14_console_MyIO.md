@@ -1,14 +1,9 @@
-# Mju23-1
+# MJU23-1, DTP, dtp14_console_MyIO
 
-[UP](../dir.md) [Here](.)
+[Up](../MJU23-1-DTP.md) [Here](.)
 
-## Directories
+## Filer
 
-
-## Files
-
-- [.gitattributes](.gitattributes)
-- [.gitignore](.gitignore)
 - [Program.cs](Program.cs)
 - [dtp14_console_MyIO.csproj](dtp14_console_MyIO.csproj)
 - [dtp14_console_MyIO.sln](dtp14_console_MyIO.sln)

@@ -1,14 +1,9 @@
-# Mju23-1
+# MJU23-1, DTP, contact_list_3
 
 [UP](../dir.md) [Here](.)
 
-## Directories
+## Filer
 
-
-## Files
-
-- [.gitattributes](.gitattributes)
-- [.gitignore](.gitignore)
 - [LICENSE.txt](LICENSE.txt)
 - [Program.cs](Program.cs)
 - [README.md](README.md)

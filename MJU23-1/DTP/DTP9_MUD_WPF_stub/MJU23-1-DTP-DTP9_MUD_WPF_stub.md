@@ -1,21 +1,18 @@
-# Mju23-1
+# MJU23-1, DTP, DTP9_MUD_WPF_stub
 
-[UP](../dir.md) [Here](.)
+[Up](../MJU23-1-DTP.md) [Here](.)
 
-## Directories
+## Kataloger
 
 - [images](images/dir.md)
 
-## Files
+## Filer
 
-- [.gitattributes](.gitattributes)
-- [.gitignore](.gitignore)
 - [App.xaml](App.xaml)
 - [App.xaml.cs](App.xaml.cs)
 - [AssemblyInfo.cs](AssemblyInfo.cs)
 - [DTP9_MUD_WPF_stub.csproj](DTP9_MUD_WPF_stub.csproj)
 - [DTP9_MUD_WPF_stub.sln](DTP9_MUD_WPF_stub.sln)
-- [LICENSE.txt](LICENSE.txt)
 - [MainWindow.xaml](MainWindow.xaml)
 - [MainWindow.xaml.cs](MainWindow.xaml.cs)
 - [README.md](README.md)

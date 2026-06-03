@@ -1,14 +1,9 @@
-# Mju23-1
+# MJU23-1, DTP, dtp15_todolist
 
-[UP](../dir.md) [Here](.)
+[Up](../MJU23-1-DTP.md) [Here](.)
 
-## Directories
+## Filer
 
-
-## Files
-
-- [.gitattributes](.gitattributes)
-- [.gitignore](.gitignore)
 - [Program.cs](Program.cs)
 - [README.md](README.md)
 - [dtp15_todolist.csproj](dtp15_todolist.csproj)

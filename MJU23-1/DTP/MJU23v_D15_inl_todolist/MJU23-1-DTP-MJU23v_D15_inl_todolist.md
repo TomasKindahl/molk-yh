@@ -1,15 +1,9 @@
-# Mju23-1
+# MJU23-1, DTP, MJU23v_D15_inl_todolist
 
 [UP](../dir.md) [Here](.)
 
-## Directories
+## Filer
 
-
-## Files
-
-- [.gitattributes](.gitattributes)
-- [.gitignore](.gitignore)
-- [LICENSE.txt](LICENSE.txt)
 - [MJU23v_D15_inl_todolist.csproj](MJU23v_D15_inl_todolist.csproj)
 - [MJU23v_D15_inl_todolist.sln](MJU23v_D15_inl_todolist.sln)
 - [Program.cs](Program.cs)

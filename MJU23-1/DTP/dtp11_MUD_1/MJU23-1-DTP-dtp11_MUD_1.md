@@ -1,14 +1,9 @@
-# Mju23-1
+# MJU23-1, DTP, dtp11_MUD_1
 
-[UP](../dir.md) [Here](.)
+[Up](../MJU23-1-DTP.md) [Here](.)
 
-## Directories
+## Filer
 
-
-## Files
-
-- [.gitattributes](.gitattributes)
-- [.gitignore](.gitignore)
 - [App.xaml](App.xaml)
 - [App.xaml.cs](App.xaml.cs)
 - [AssemblyInfo.cs](AssemblyInfo.cs)

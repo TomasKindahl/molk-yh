@@ -1,16 +1,13 @@
-# Mju23-1
+# MJU23-1, DTP, MJU23v_DTP_T2
 
 [UP](../dir.md) [Here](.)
 
-## Directories
+## Kataloger
 
 - [links](links/dir.md)
 
-## Files
+## Filer
 
-- [.gitattributes](.gitattributes)
-- [.gitignore](.gitignore)
-- [LICENSE.txt](LICENSE.txt)
 - [MJU23v_DTP_T2.csproj](MJU23v_DTP_T2.csproj)
 - [MJU23v_DTP_T2.sln](MJU23v_DTP_T2.sln)
 - [Program.cs](Program.cs)
