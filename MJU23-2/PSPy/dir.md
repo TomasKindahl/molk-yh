@@ -1,13 +1,8 @@
-
 # PSPy
 
 [Up](../dir.md) [Here](.)
 
-
-
-## Updates
-
-### Directories
+## Directories
 
 - [Course_Python_Extra](Course_Python_Extra/dir.md)
 
