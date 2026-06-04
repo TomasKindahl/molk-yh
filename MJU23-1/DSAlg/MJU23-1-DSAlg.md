@@ -1,24 +1,10 @@
+# MJU23-1, DSAlg
 
-# DSAlg
+[Up](../MJU23-1.md) [Here](.)
 
-[Up](../dir.md) [Here](.)
+## Kataloger
 
-
-
-## Updates
-
-### Directories
-
-- [ovn_8_1](ovn_8_1/dir.md)
-- [Course_DsAlg](Course_DsAlg/dir.md)
-
-
-## Updates
-
-### Directories
-
-- [Course_DsAlg](Course_DsAlg/dir.md)
-- [ovn_8_1](ovn_8_1/dir.md)
-
-### Files
-
+|datum     |repo                                              |
+|----------|--------------------------------------------------|
+|2024-03-17|[Course_DsAlg](Course_DsAlg/MJU23-1-DSAlg-mtrl.md)|
+|2024-03-27|[ovn_8_1](ovn_8_1/MJU23-1-DSAlg-ovn_8_1.md)       |

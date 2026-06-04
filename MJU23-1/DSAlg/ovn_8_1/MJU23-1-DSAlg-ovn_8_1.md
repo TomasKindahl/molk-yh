@@ -1,15 +1,9 @@
-# Mju23-1
+# MJU23-1, DSAlg, MJU23-1-DSAlg-ovn_8_1
 
-[UP](../dir.md) [Here](.)
+[UP](../MJU23-1-DSAlg.md) [Here](.)
 
-## Directories
+## Filer
 
-
-## Files
-
-- [.gitattributes](.gitattributes)
-- [.gitignore](.gitignore)
-- [LICENSE.txt](LICENSE.txt)
 - [Program.cs](Program.cs)
 - [README.md](README.md)
 - [nationdata.csv](nationdata.csv)

@@ -1,11 +1,8 @@
-# Mju23-1
+# MJU23-1, DSAlg, MJU23-1-DSAlg-mtrl, D8
 
-[UP](../dir.md) [Here](.)
+[UP](../MJU23-1-DSAlg-mtrl.md) [Here](.)
 
-## Directories
-
-
-## Files
+## Filer
 
 - [8.1.1.a_fixes.cs](8.1.1.a_fixes.cs)
 - [8.1.1.b_orderby.cs](8.1.1.b_orderby.cs)

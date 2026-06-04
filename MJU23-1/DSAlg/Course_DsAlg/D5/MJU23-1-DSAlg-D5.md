@@ -1,11 +1,8 @@
-# Mju23-1
+# MJU23-1, DSAlg, MJU23-1-DSAlg-mtrl, D5
 
-[UP](../dir.md) [Here](.)
+[UP](../MJU23-1-DSAlg-mtrl.md) [Here](.)
 
-## Directories
-
-
-## Files
+## Filer
 
 - [5.1.1_Program.cs](5.1.1_Program.cs)
 - [5.1.1_kodstubb.cs](5.1.1_kodstubb.cs)
